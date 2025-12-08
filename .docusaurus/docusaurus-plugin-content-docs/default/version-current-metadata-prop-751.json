@@ -1,0 +1,84 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Module 1: ROS 2",
+        "href": "/docs/module-1/",
+        "docId": "module-1/index"
+      },
+      {
+        "type": "link",
+        "label": "Module 2: Digital Twin",
+        "href": "/docs/module-2/",
+        "docId": "module-2/index"
+      },
+      {
+        "type": "link",
+        "label": "Module 3: Isaac Sim",
+        "href": "/docs/module-3/",
+        "docId": "module-3/index"
+      },
+      {
+        "type": "link",
+        "label": "Module 4: VLA & Humanoids",
+        "href": "/docs/module-4/",
+        "docId": "module-4/index"
+      },
+      {
+        "type": "category",
+        "label": "Introduction",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "The Robotic Nervous System (ROS 2)",
+            "href": "/docs/Introduction/ros2-chapter",
+            "docId": "Introduction/ros2-chapter"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "Introduction/ros2-chapter": {
+      "id": "Introduction/ros2-chapter",
+      "title": "The Robotic Nervous System (ROS 2)",
+      "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/index": {
+      "id": "module-1/index",
+      "title": "Module 1: The Robotic Nervous System (ROS 2)",
+      "description": "Master ROS 2 architecture, communication patterns, and robot modeling to build distributed robotic systems",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/index": {
+      "id": "module-2/index",
+      "title": "Module 2: Digital Twins - Simulation & Sensors",
+      "description": "Build digital twins for robotic systems using Gazebo and Unity to simulate sensors, physics, and environments",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-3/index": {
+      "id": "module-3/index",
+      "title": "Module 3: NVIDIA Isaac - Perception & Navigation",
+      "description": "Leverage NVIDIA Isaac Sim for GPU-accelerated robotics with VSLAM, Nav2 navigation, and reinforcement learning",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4/index": {
+      "id": "module-4/index",
+      "title": "Module 4: VLA & Humanoid Robotics",
+      "description": "Integrate Vision-Language-Action models with humanoid robots for natural human-robot interaction and manipulation",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

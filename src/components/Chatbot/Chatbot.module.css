@@ -1,0 +1,138 @@
+.chatIcon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #4b8df8;
+  color: white;
+  font-size: 30px;
+  padding: 14px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  transition: 0.3s ease;
+  z-index: 9999;
+}
+
+.chatIcon:hover {
+  background: #357ae8;
+  transform: scale(1.1);
+}
+
+.chatPopup {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 330px;
+  height: 450px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 5px 18px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 9999;
+  animation: popupShow 0.3s ease;
+}
+
+@keyframes popupShow {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  background: #4b8df8;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerBtns { display: flex; gap: 8px; }
+.headerBtn {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+.headerBtn:hover { transform: scale(1.2); }
+
+.messagesContainer {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  background: #f7f9fc;
+}
+
+.message {
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.user { background: #01011d; color: white; align-self: flex-end; margin-left: auto; }
+.bot { background: #4b8df8; align-self: flex-start; margin-right: auto; }
+.error { background: #ffdddd; color: #d10000; border-left: 4px solid red; }
+
+/* Welcome message style */
+.welcome {
+  background: #4b8df8;
+  color: white;
+  text-align: center;
+  animation: slideAway 0.5s ease forwards;
+}
+
+@keyframes slideAway {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-50px); opacity: 0; }
+}
+
+.inputContainer {
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.inputField {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s ease;
+  background: #4b8df8;
+  color: white;
+}
+
+.inputField:focus { border-color: #4b8df8; }
+
+.sendButton {
+  background: #4b8df8;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.sendButton:hover { background: #357ae8; }
+
+
+.welcome {
+  text-align: center;
+  background-color: #4b8df8;
+  color: white;
+  font-weight: bold;
+}

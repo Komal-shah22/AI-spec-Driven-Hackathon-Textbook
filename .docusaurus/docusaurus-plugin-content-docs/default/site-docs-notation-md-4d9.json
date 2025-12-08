@@ -1,0 +1,20 @@
+{
+  "unversionedId": "notation",
+  "id": "notation",
+  "title": "Notation",
+  "description": "ROS 2 Specific Notation",
+  "source": "@site/docs/notation.md",
+  "sourceDirName": ".",
+  "slug": "/notation",
+  "permalink": "/docs/notation",
+  "draft": false,
+  "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/notation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "The Robotic Nervous System (ROS 2)",
+    "permalink": "/docs/robotics/ros2-chapter"
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs",
+          "editUrlLocalized": "https://github.com/your-organization/humanoid-robotics-book/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "E:\\Humanoid_Robotics_Book\\sidebars.js",
+          "contentPath": "E:\\Humanoid_Robotics_Book\\docs",
+          "contentPathLocalized": "E:\\Humanoid_Robotics_Book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "Introduction/ros2-chapter",
+              "id": "Introduction/ros2-chapter",
+              "title": "The Robotic Nervous System (ROS 2)",
+              "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
+              "source": "@site/docs/Introduction/ros2-chapter.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/ros2-chapter",
+              "permalink": "/docs/Introduction/ros2-chapter",
+              "draft": false,
+              "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/Introduction/ros2-chapter.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "The Robotic Nervous System (ROS 2)",
+                "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
+                "keywords": [
+                  "ROS 2",
+                  "Robotics",
+                  "Humanoid",
+                  "Nodes",
+                  "Topics",
+                  "Services",
+                  "Actions",
+                  "Parameters",
+                  "Rviz2",
+                  "Rqt",
+                  "Colcon"
+                ],
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 4: VLA & Humanoids",
+                "permalink": "/docs/module-4/"
+              }
+            },
+            {
+              "unversionedId": "module-1/index",
+              "id": "module-1/index",
+              "title": "Module 1: The Robotic Nervous System (ROS 2)",
+              "description": "Master ROS 2 architecture, communication patterns, and robot modeling to build distributed robotic systems",
+              "source": "@site/docs/module-1/index.md",
+              "sourceDirName": "module-1",
+              "slug": "/module-1/",
+              "permalink": "/docs/module-1/",
+              "draft": false,
+              "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-1/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Module 1: The Robotic Nervous System (ROS 2)",
+                "description": "Master ROS 2 architecture, communication patterns, and robot modeling to build distributed robotic systems",
+                "keywords": [
+                  "ROS 2",
+                  "robotics middleware",
+                  "nodes",
+                  "topics",
+                  "services",
+                  "URDF",
+                  "rclpy"
+                ],
+                "sidebar_position": 1,
+                "sidebar_label": "Module 1: ROS 2",
+                "estimated_time": 10,
+                "week": 3,
+                "module": 1,
+                "prerequisites": [
+                  "module-1-ros2/index"
+                ],
+                "learning_objectives": [
+                  "Explain the ROS 2 computation graph and its components (nodes, topics, services, actions)",
+                  "Create publishers, subscribers, and service clients using rclpy",
+                  "Define robot structure using URDF and visualize in RViz2",
+                  "Launch multi-node systems and debug distributed applications",
+                  "Build a complete ROS 2 package with proper package structure"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Module 2: Digital Twin",
+                "permalink": "/docs/module-2/"
+              }
+            },
+            {
+              "unversionedId": "module-2/index",
+              "id": "module-2/index",
+              "title": "Module 2: Digital Twins - Simulation & Sensors",
+              "description": "Build digital twins for robotic systems using Gazebo and Unity to simulate sensors, physics, and environments",
+              "source": "@site/docs/module-2/index.md",
+              "sourceDirName": "module-2",
+              "slug": "/module-2/",
+              "permalink": "/docs/module-2/",
+              "draft": false,
+              "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-2/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Module 2: Digital Twins - Simulation & Sensors",
+                "description": "Build digital twins for robotic systems using Gazebo and Unity to simulate sensors, physics, and environments",
+                "keywords": [
+                  "Gazebo",
+                  "Unity",
+                  "digital twin",
+                  "simulation",
+                  "sensors",
+                  "physics",
+                  "robotics simulation"
+                ],
+                "sidebar_position": 1,
+                "sidebar_label": "Module 2: Digital Twin",
+                "estimated_time": 6,
+                "week": 6,
+                "module": 2,
+                "prerequisites": [
+                  "module-1/index"
+                ],
+                "learning_objectives": [
+                  "Create Gazebo simulation environments with physics engines and sensor models",
+                  "Integrate Unity for photorealistic sensor simulation using Unity Robotics Hub",
+                  "Test navigation and perception algorithms in simulation before hardware deployment",
+                  "Bridge simulated and real robot workflows for seamless sim-to-real transfer"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 1: ROS 2",
+                "permalink": "/docs/module-1/"
+              },
+              "next": {
+                "title": "Module 3: Isaac Sim",
+                "permalink": "/docs/module-3/"
+              }
+            },
+            {
+              "unversionedId": "module-3/index",
+              "id": "module-3/index",
+              "title": "Module 3: NVIDIA Isaac - Perception & Navigation",
+              "description": "Leverage NVIDIA Isaac Sim for GPU-accelerated robotics with VSLAM, Nav2 navigation, and reinforcement learning",
+              "source": "@site/docs/module-3/index.md",
+              "sourceDirName": "module-3",
+              "slug": "/module-3/",
+              "permalink": "/docs/module-3/",
+              "draft": false,
+              "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-3/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Module 3: NVIDIA Isaac - Perception & Navigation",
+                "description": "Leverage NVIDIA Isaac Sim for GPU-accelerated robotics with VSLAM, Nav2 navigation, and reinforcement learning",
+                "keywords": [
+                  "NVIDIA Isaac",
+                  "Isaac Sim",
+                  "VSLAM",
+                  "Nav2",
+                  "reinforcement learning",
+                  "GPU robotics",
+                  "perception"
+                ],
+                "sidebar_position": 1,
+                "sidebar_label": "Module 3: Isaac Sim",
+                "estimated_time": 9,
+                "week": 8,
+                "module": 3,
+                "prerequisites": [
+                  "module-2/index"
+                ],
+                "learning_objectives": [
+                  "Set up and configure NVIDIA Isaac Sim environments with RTX-accelerated rendering",
+                  "Implement Visual SLAM (VSLAM) for robot localization and mapping",
+                  "Deploy Nav2 navigation stack for autonomous navigation with dynamic obstacles",
+                  "Train reinforcement learning policies using Isaac Gym for manipulation tasks"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 2: Digital Twin",
+                "permalink": "/docs/module-2/"
+              },
+              "next": {
+                "title": "Module 4: VLA & Humanoids",
+                "permalink": "/docs/module-4/"
+              }
+            },
+            {
+              "unversionedId": "module-4/index",
+              "id": "module-4/index",
+              "title": "Module 4: VLA & Humanoid Robotics",
+              "description": "Integrate Vision-Language-Action models with humanoid robots for natural human-robot interaction and manipulation",
+              "source": "@site/docs/module-4/index.md",
+              "sourceDirName": "module-4",
+              "slug": "/module-4/",
+              "permalink": "/docs/module-4/",
+              "draft": false,
+              "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-4/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Module 4: VLA & Humanoid Robotics",
+                "description": "Integrate Vision-Language-Action models with humanoid robots for natural human-robot interaction and manipulation",
+                "keywords": [
+                  "VLA",
+                  "vision language action",
+                  "humanoid robotics",
+                  "kinematics",
+                  "manipulation",
+                  "conversational AI",
+                  "embodied AI"
+                ],
+                "sidebar_position": 1,
+                "sidebar_label": "Module 4: VLA & Humanoids",
+                "estimated_time": 9,
+                "week": 11,
+                "module": 4,
+                "prerequisites": [
+                  "module-3/index"
+                ],
+                "learning_objectives": [
+                  "Calculate forward and inverse kinematics for humanoid robots with 30+ degrees of freedom",
+                  "Implement manipulation primitives (reach, grasp, place) for pick-and-place tasks",
+                  "Integrate conversational AI (speech-to-text, LLMs) with robot action planning",
+                  "Deploy end-to-end VLA systems that translate voice commands into physical actions"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 3: Isaac Sim",
+                "permalink": "/docs/module-3/"
+              },
+              "next": {
+                "title": "The Robotic Nervous System (ROS 2)",
+                "permalink": "/docs/Introduction/ros2-chapter"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "label": "Module 1: ROS 2",
+                "id": "module-1/index"
+              },
+              {
+                "type": "doc",
+                "label": "Module 2: Digital Twin",
+                "id": "module-2/index"
+              },
+              {
+                "type": "doc",
+                "label": "Module 3: Isaac Sim",
+                "id": "module-3/index"
+              },
+              {
+                "type": "doc",
+                "label": "Module 4: VLA & Humanoids",
+                "id": "module-4/index"
+              },
+              {
+                "type": "category",
+                "label": "Introduction",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Introduction/ros2-chapter"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

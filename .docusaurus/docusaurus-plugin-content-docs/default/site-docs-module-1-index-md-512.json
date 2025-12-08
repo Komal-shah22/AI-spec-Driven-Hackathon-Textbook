@@ -1,0 +1,48 @@
+{
+  "unversionedId": "module-1/index",
+  "id": "module-1/index",
+  "title": "Module 1: The Robotic Nervous System (ROS 2)",
+  "description": "Master ROS 2 architecture, communication patterns, and robot modeling to build distributed robotic systems",
+  "source": "@site/docs/module-1/index.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/",
+  "permalink": "/docs/module-1/",
+  "draft": false,
+  "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-1/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
+    "description": "Master ROS 2 architecture, communication patterns, and robot modeling to build distributed robotic systems",
+    "keywords": [
+      "ROS 2",
+      "robotics middleware",
+      "nodes",
+      "topics",
+      "services",
+      "URDF",
+      "rclpy"
+    ],
+    "sidebar_position": 1,
+    "sidebar_label": "Module 1: ROS 2",
+    "estimated_time": 10,
+    "week": 3,
+    "module": 1,
+    "prerequisites": [
+      "module-1-ros2/index"
+    ],
+    "learning_objectives": [
+      "Explain the ROS 2 computation graph and its components (nodes, topics, services, actions)",
+      "Create publishers, subscribers, and service clients using rclpy",
+      "Define robot structure using URDF and visualize in RViz2",
+      "Launch multi-node systems and debug distributed applications",
+      "Build a complete ROS 2 package with proper package structure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Module 2: Digital Twin",
+    "permalink": "/docs/module-2/"
+  }
+}

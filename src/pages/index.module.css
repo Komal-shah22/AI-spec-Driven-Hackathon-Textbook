@@ -1,0 +1,174 @@
+.heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  background: #000814;
+  color: #ffffff;
+  min-height: 100vh;
+
+}
+
+.left {
+  max-width: 50%;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 1.1;
+
+}
+
+.highlight {
+  color: #37b6ff;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  font-family: 'Audiowide', sans-serif;
+
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.8;
+  max-width: 80%;
+
+}
+
+.free {
+  color: #37b6ff;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+}
+
+.btnPrimary {
+  background: #37b6ff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.btnSecondary {
+  border: 1px solid #37b6ff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #37b6ff;
+  text-decoration: none;
+}
+
+.right {
+  max-width: 40%;
+}
+
+.robotImg {
+  width: 100%;
+  opacity: 0.9;
+  filter: drop-shadow(0px 0px 20px #37b6ff);
+}
+
+
+/* -------------- MODULE SECTION -------------- */
+
+.modulesSection {
+  padding: 80px 0;
+  background: #000814; /* same dark neon background */
+}
+
+.modulesHeading {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+    font-family: 'Audiowide', sans-serif;
+
+}
+
+.modulesSub {
+  text-align: center;
+  color: #f3f5f8;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  font-size: 17px;
+
+
+}
+
+.modulesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  padding: 0 40px;
+}
+
+/* --------- CARD --------- */
+.moduleCard {
+  position: relative;
+  background: rgba(10, 25, 47, 0.7);
+  border: 1px solid rgba(0, 180, 255, 0.25);
+  padding: 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover Animation */
+.moduleCard:hover {
+  transform: translateY(-10px);
+  border-color: #37b6ff;
+  box-shadow: 0 10px 25px rgba(0, 200, 255, 0.25);
+}
+
+.moduleNumber {
+  font-size: 34px;
+  color: #37b6ff;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.moduleTitle {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #d7eaff;
+  font-weight: 600;
+}
+
+.moduleDesc {
+  color: #8eb8d6;
+  margin: 15px 0 20px;
+  line-height: 1.6;
+}
+
+.moduleList {
+  color: #7db7dd;
+  list-style: none;
+  padding: 0;
+}
+
+.moduleList li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* Ribbon tag */
+.moduleRibbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #37b6ff;
+  color: #012332;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}

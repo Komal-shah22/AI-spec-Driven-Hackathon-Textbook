@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+  --ifm-background-color: #000814;
+  --ifm-text-color: white;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #000814;
+  --ifm-text-color: white;
+}
+
+html[data-theme='light'] {
+  --ifm-background-color: white;
+  --ifm-text-color: #000814;
+}
+
+.theme-doc-sidebar-item-link:hover {
+  border-left: 3px solid #37b6ff;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid #37b6ff; /* Apply border to the sidebar container */
+}
+
+.theme-doc-sidebar-container:hover {
+  box-shadow: 0 0 10px #37b6ff; /* Add shadow effect on hover */
+}
+
+body {
+  font-family: 'Audiowide', sans-serif;
+}

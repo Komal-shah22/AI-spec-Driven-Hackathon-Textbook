@@ -12,25 +12,25 @@
       {
         "type": "link",
         "label": "Module 1: ROS 2",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/",
+        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/",
         "docId": "module-1/index"
       },
       {
         "type": "link",
         "label": "Module 2: Digital Twin",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/",
+        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/",
         "docId": "module-2/index"
       },
       {
         "type": "link",
         "label": "Module 3: Isaac Sim",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/docs/module-3/",
+        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/",
         "docId": "module-3/index"
       },
       {
         "type": "link",
         "label": "Module 4: VLA & Humanoids",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/docs/module-4/",
+        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/",
         "docId": "module-4/index"
       },
       {
@@ -42,7 +42,7 @@
           {
             "type": "link",
             "label": "The Robotic Nervous System (ROS 2)",
-            "href": "/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter",
+            "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter",
             "docId": "Introduction/ros2-chapter"
           }
         ]

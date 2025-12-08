@@ -6,13 +6,13 @@
 export default {
   "title": "Humanoid Robotics Book",
   "tagline": "The Robotic Nervous System",
-  "url": "https://your-docusaurus-site.com",
-  "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "url": "https://Komal-shah22.github.io",
+  "baseUrl": "/AI-spec-Driven-Hackathon-Textbook/",
+  "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "your-organization",
-  "projectName": "humanoid-robotics-book",
+  "organizationName": "Komal-shah22",
+  "projectName": "AI-spec-Driven-Hackathon-Textbook",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -28,13 +28,10 @@ export default {
       {
         "docs": {
           "sidebarPath": "E:\\Humanoid_Robotics_Book\\sidebars.js",
-          "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/",
+          "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/",
           "path": "./docs"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "E:\\Humanoid_Robotics_Book\\src\\css\\custom.css"
         }
@@ -56,7 +53,7 @@ export default {
           "label": "Textbook"
         },
         {
-          "href": "https://github.com/your-organization/humanoid-robotics-book",
+          "href": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook",
           "label": "GitHub",
           "position": "right"
         },
@@ -102,12 +99,8 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
               "label": "GitHub",
-              "href": "https://github.com/your-organization/humanoid-robotics-book"
+              "href": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook"
             }
           ]
         }

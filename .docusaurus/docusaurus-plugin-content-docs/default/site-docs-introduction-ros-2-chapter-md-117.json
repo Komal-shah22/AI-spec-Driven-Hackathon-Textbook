@@ -6,9 +6,9 @@
   "source": "@site/docs/Introduction/ros2-chapter.md",
   "sourceDirName": "Introduction",
   "slug": "/Introduction/ros2-chapter",
-  "permalink": "/docs/Introduction/ros2-chapter",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter",
   "draft": false,
-  "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/Introduction/ros2-chapter.md",
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/Introduction/ros2-chapter.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -33,6 +33,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 4: VLA & Humanoids",
-    "permalink": "/docs/module-4/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-4/"
   }
 }

@@ -1,38 +1,38 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/AI-spec-Driven-Hackathon-Textbook/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/AI-spec-Driven-Hackathon-Textbook/docs",
           "mainDocId": "module-1/index",
           "docs": [
             {
               "id": "Introduction/ros2-chapter",
-              "path": "/docs/Introduction/ros2-chapter",
+              "path": "/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1/index",
-              "path": "/docs/module-1/",
+              "path": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2/index",
-              "path": "/docs/module-2/",
+              "path": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3/index",
-              "path": "/docs/module-3/",
+              "path": "/AI-spec-Driven-Hackathon-Textbook/docs/module-3/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4/index",
-              "path": "/docs/module-4/",
+              "path": "/AI-spec-Driven-Hackathon-Textbook/docs/module-4/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -40,7 +40,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/module-1/",
+                "path": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/",
                 "label": "Module 1: ROS 2"
               }
             }

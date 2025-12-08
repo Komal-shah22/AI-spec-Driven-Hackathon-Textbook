@@ -3,79 +3,44 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '4eb'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e38'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'fb8'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'b0f'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ae0'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '8f7'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '9ec'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '181'),
+    path: '/AI-spec-Driven-Hackathon-Textbook/docs',
+    component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/docs', 'fa8'),
     routes: [
       {
-        path: '/docs/Introduction/ros2-chapter',
-        component: ComponentCreator('/docs/Introduction/ros2-chapter', 'a9f'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter', '965'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/',
-        component: ComponentCreator('/docs/module-1/', '242'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/docs/module-1/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/docs/module-1/', '142'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-2/',
-        component: ComponentCreator('/docs/module-2/', '86e'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/docs/module-2/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/docs/module-2/', '19f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-3/',
-        component: ComponentCreator('/docs/module-3/', 'ad0'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/docs/module-3/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/docs/module-3/', '7b4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-4/',
-        component: ComponentCreator('/docs/module-4/', 'b23'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/docs/module-4/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/docs/module-4/', 'fa0'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '844'),
+    path: '/AI-spec-Driven-Hackathon-Textbook/',
+    component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/', 'be1'),
     exact: true
   },
   {

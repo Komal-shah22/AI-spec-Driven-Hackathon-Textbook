@@ -6,9 +6,9 @@
   "source": "@site/docs/module-4/index.md",
   "sourceDirName": "module-4",
   "slug": "/module-4/",
-  "permalink": "/docs/module-4/",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-4/",
   "draft": false,
-  "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-4/index.md",
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-4/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -42,10 +42,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 3: Isaac Sim",
-    "permalink": "/docs/module-3/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-3/"
   },
   "next": {
     "title": "The Robotic Nervous System (ROS 2)",
-    "permalink": "/docs/Introduction/ros2-chapter"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter"
   }
 }

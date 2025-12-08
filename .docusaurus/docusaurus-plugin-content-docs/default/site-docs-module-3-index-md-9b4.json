@@ -6,9 +6,9 @@
   "source": "@site/docs/module-3/index.md",
   "sourceDirName": "module-3",
   "slug": "/module-3/",
-  "permalink": "/docs/module-3/",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-3/",
   "draft": false,
-  "editUrl": "https://github.com/your-organization/humanoid-robotics-book/tree/main/docs/module-3/index.md",
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-3/index.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -42,10 +42,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2: Digital Twin",
-    "permalink": "/docs/module-2/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/"
   },
   "next": {
     "title": "Module 4: VLA & Humanoids",
-    "permalink": "/docs/module-4/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-4/"
   }
 }

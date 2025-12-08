@@ -41,5 +41,9 @@
   },
   "engines": {
     "node": ">=16.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook.git"
   }
 }

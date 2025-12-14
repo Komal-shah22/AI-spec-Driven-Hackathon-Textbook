@@ -3,133 +3,98 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '4eb'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e38'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'fb8'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'b0f'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ae0'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '8f7'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '9ec'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'd87'),
+    path: '/ur/docs',
+    component: ComponentCreator('/ur/docs', '1ea'),
     routes: [
       {
-        path: '/docs/Introduction/ros2-chapter',
-        component: ComponentCreator('/docs/Introduction/ros2-chapter', 'a9f'),
+        path: '/ur/docs/Introduction/ros2-chapter',
+        component: ComponentCreator('/ur/docs/Introduction/ros2-chapter', '58d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/',
-        component: ComponentCreator('/docs/module-1/', '242'),
+        path: '/ur/docs/module-1/',
+        component: ComponentCreator('/ur/docs/module-1/', 'c78'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/ch1-intro',
-        component: ComponentCreator('/docs/module-1/ch1-intro', 'eb7'),
+        path: '/ur/docs/module-1/ch1-intro',
+        component: ComponentCreator('/ur/docs/module-1/ch1-intro', 'a88'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/ch2-comm',
-        component: ComponentCreator('/docs/module-1/ch2-comm', 'daf'),
+        path: '/ur/docs/module-1/ch2-comm',
+        component: ComponentCreator('/ur/docs/module-1/ch2-comm', 'b55'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/ch3-first-app',
-        component: ComponentCreator('/docs/module-1/ch3-first-app', 'bd1'),
+        path: '/ur/docs/module-1/ch3-first-app',
+        component: ComponentCreator('/ur/docs/module-1/ch3-first-app', '3e1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/ch4-advanced',
-        component: ComponentCreator('/docs/module-1/ch4-advanced', '7c1'),
+        path: '/ur/docs/module-1/ch4-advanced',
+        component: ComponentCreator('/ur/docs/module-1/ch4-advanced', 'f42'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-1/ros2-robotic-nervous-system',
-        component: ComponentCreator('/docs/module-1/ros2-robotic-nervous-system', '73c'),
+        path: '/ur/docs/module-1/ros2-robotic-nervous-system',
+        component: ComponentCreator('/ur/docs/module-1/ros2-robotic-nervous-system', 'cfd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-2/',
-        component: ComponentCreator('/docs/module-2/', '86e'),
+        path: '/ur/docs/module-2/',
+        component: ComponentCreator('/ur/docs/module-2/', '1ea'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-2/building-a-robot-model',
-        component: ComponentCreator('/docs/module-2/building-a-robot-model', '61f'),
+        path: '/ur/docs/module-2/building-a-robot-model',
+        component: ComponentCreator('/ur/docs/module-2/building-a-robot-model', '01f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-2/integrating-sensors',
-        component: ComponentCreator('/docs/module-2/integrating-sensors', 'f3e'),
+        path: '/ur/docs/module-2/integrating-sensors',
+        component: ComponentCreator('/ur/docs/module-2/integrating-sensors', '5f0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-2/intro-to-digital-twins',
-        component: ComponentCreator('/docs/module-2/intro-to-digital-twins', '220'),
+        path: '/ur/docs/module-2/intro-to-digital-twins',
+        component: ComponentCreator('/ur/docs/module-2/intro-to-digital-twins', '466'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-2/simulation-environments',
-        component: ComponentCreator('/docs/module-2/simulation-environments', '5c9'),
+        path: '/ur/docs/module-2/simulation-environments',
+        component: ComponentCreator('/ur/docs/module-2/simulation-environments', 'e06'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-3/',
-        component: ComponentCreator('/docs/module-3/', 'ad0'),
+        path: '/ur/docs/module-3/',
+        component: ComponentCreator('/ur/docs/module-3/', 'a0f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/module-4/',
-        component: ComponentCreator('/docs/module-4/', 'b23'),
+        path: '/ur/docs/module-4/',
+        component: ComponentCreator('/ur/docs/module-4/', '2cd'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '844'),
+    path: '/ur/',
+    component: ComponentCreator('/ur/', '0fa'),
     exact: true
   },
   {

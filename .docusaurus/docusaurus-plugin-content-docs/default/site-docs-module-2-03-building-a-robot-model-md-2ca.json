@@ -6,7 +6,7 @@
   "source": "@site/docs/module-2/03-building-a-robot-model.md",
   "sourceDirName": "module-2",
   "slug": "/module-2/building-a-robot-model",
-  "permalink": "/docs/module-2/building-a-robot-model",
+  "permalink": "/ur/docs/module-2/building-a-robot-model",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/03-building-a-robot-model.md",
   "tags": [],
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: Simulation Environments for Robotics",
-    "permalink": "/docs/module-2/simulation-environments"
+    "permalink": "/ur/docs/module-2/simulation-environments"
   },
   "next": {
     "title": "Chapter 4: Integrating Sensors in Simulation",
-    "permalink": "/docs/module-2/integrating-sensors"
+    "permalink": "/ur/docs/module-2/integrating-sensors"
   }
 }

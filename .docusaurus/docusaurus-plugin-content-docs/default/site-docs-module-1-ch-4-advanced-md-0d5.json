@@ -6,7 +6,7 @@
   "source": "@site/docs/module-1/ch4-advanced.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/ch4-advanced",
-  "permalink": "/docs/module-1/ch4-advanced",
+  "permalink": "/ur/docs/module-1/ch4-advanced",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch4-advanced.md",
   "tags": [],
@@ -15,6 +15,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3: Your First ROS 2 Application: Building a Simple Robotic System",
-    "permalink": "/docs/module-1/ch3-first-app"
+    "permalink": "/ur/docs/module-1/ch3-first-app"
   }
 }

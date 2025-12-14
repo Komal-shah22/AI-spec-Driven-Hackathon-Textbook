@@ -6,7 +6,7 @@
   "source": "@site/docs/module-1/ch2-comm.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/ch2-comm",
-  "permalink": "/docs/module-1/ch2-comm",
+  "permalink": "/ur/docs/module-1/ch2-comm",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch2-comm.md",
   "tags": [],
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Introducing ROS 2: The Robot's Brain and Nerves",
-    "permalink": "/docs/module-1/ch1-intro"
+    "permalink": "/ur/docs/module-1/ch1-intro"
   },
   "next": {
     "title": "Chapter 3: Your First ROS 2 Application: Building a Simple Robotic System",
-    "permalink": "/docs/module-1/ch3-first-app"
+    "permalink": "/ur/docs/module-1/ch3-first-app"
   }
 }

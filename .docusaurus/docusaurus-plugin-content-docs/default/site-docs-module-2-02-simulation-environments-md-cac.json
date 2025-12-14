@@ -6,7 +6,7 @@
   "source": "@site/docs/module-2/02-simulation-environments.md",
   "sourceDirName": "module-2",
   "slug": "/module-2/simulation-environments",
-  "permalink": "/docs/module-2/simulation-environments",
+  "permalink": "/ur/docs/module-2/simulation-environments",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/02-simulation-environments.md",
   "tags": [],
@@ -16,10 +16,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Introduction to Digital Twins",
-    "permalink": "/docs/module-2/intro-to-digital-twins"
+    "permalink": "/ur/docs/module-2/intro-to-digital-twins"
   },
   "next": {
     "title": "Chapter 3: Building a Robot Model (URDF)",
-    "permalink": "/docs/module-2/building-a-robot-model"
+    "permalink": "/ur/docs/module-2/building-a-robot-model"
   }
 }

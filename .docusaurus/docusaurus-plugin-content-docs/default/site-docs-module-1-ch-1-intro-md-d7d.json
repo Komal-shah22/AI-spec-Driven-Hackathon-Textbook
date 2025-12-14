@@ -1,0 +1,24 @@
+{
+  "unversionedId": "module-1/ch1-intro",
+  "id": "module-1/ch1-intro",
+  "title": "Chapter 1: Introducing ROS 2: The Robot's Brain and Nerves",
+  "description": "Purpose:",
+  "source": "@site/docs/module-1/ch1-intro.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ch1-intro",
+  "permalink": "/docs/module-1/ch1-intro",
+  "draft": false,
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch1-intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Robotic Nervous System (ROS 2)",
+    "permalink": "/docs/module-1/ros2-robotic-nervous-system"
+  },
+  "next": {
+    "title": "Chapter 2: ROS 2 Communication Mechanisms: Speaking the Robot's Language",
+    "permalink": "/docs/module-1/ch2-comm"
+  }
+}

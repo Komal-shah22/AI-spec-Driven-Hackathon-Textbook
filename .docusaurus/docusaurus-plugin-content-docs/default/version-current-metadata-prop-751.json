@@ -10,27 +10,48 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Module 1: ROS 2",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/",
-        "docId": "module-1/index"
-      },
-      {
-        "type": "link",
+        "type": "category",
         "label": "Module 2: Digital Twin",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/",
-        "docId": "module-2/index"
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Chapter 1: Introduction to Digital Twins",
+            "href": "/docs/module-2/intro-to-digital-twins",
+            "docId": "module-2/intro-to-digital-twins"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Simulation Environments for Robotics",
+            "href": "/docs/module-2/simulation-environments",
+            "docId": "module-2/simulation-environments"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Building a Robot Model (URDF)",
+            "href": "/docs/module-2/building-a-robot-model",
+            "docId": "module-2/03-building-a-robot-model"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 4: Integrating Sensors in Simulation",
+            "href": "/docs/module-2/integrating-sensors",
+            "docId": "module-2/integrating-sensors"
+          }
+        ],
+        "href": "/docs/module-2/"
       },
       {
         "type": "link",
         "label": "Module 3: Isaac Sim",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/",
+        "href": "/docs/module-3/",
         "docId": "module-3/index"
       },
       {
         "type": "link",
         "label": "Module 4: VLA & Humanoids",
-        "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/",
+        "href": "/docs/module-4/",
         "docId": "module-4/index"
       },
       {
@@ -42,10 +63,49 @@
           {
             "type": "link",
             "label": "The Robotic Nervous System (ROS 2)",
-            "href": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter",
+            "href": "/docs/Introduction/ros2-chapter",
             "docId": "Introduction/ros2-chapter"
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "Module 1: The Robotic Nervous System (ROS 2)",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "The Robotic Nervous System (ROS 2)",
+            "href": "/docs/module-1/ros2-robotic-nervous-system",
+            "docId": "module-1/ros2-robotic-nervous-system"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 1: Introducing ROS 2: The Robot's Brain and Nerves",
+            "href": "/docs/module-1/ch1-intro",
+            "docId": "module-1/ch1-intro"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: ROS 2 Communication Mechanisms: Speaking the Robot's Language",
+            "href": "/docs/module-1/ch2-comm",
+            "docId": "module-1/ch2-comm"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Your First ROS 2 Application: Building a Simple Robotic System",
+            "href": "/docs/module-1/ch3-first-app",
+            "docId": "module-1/ch3-first-app"
+          },
+          {
+            "type": "link",
+            "label": "Chapter 4: Advanced ROS 2 Tooling, Introspection, and Best Practices",
+            "href": "/docs/module-1/ch4-advanced",
+            "docId": "module-1/ch4-advanced"
+          }
+        ],
+        "href": "/docs/module-1/"
       }
     ]
   },
@@ -56,16 +116,70 @@
       "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
       "sidebar": "tutorialSidebar"
     },
+    "module-1/ch1-intro": {
+      "id": "module-1/ch1-intro",
+      "title": "Chapter 1: Introducing ROS 2: The Robot's Brain and Nerves",
+      "description": "Purpose:",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/ch2-comm": {
+      "id": "module-1/ch2-comm",
+      "title": "Chapter 2: ROS 2 Communication Mechanisms: Speaking the Robot's Language",
+      "description": "Purpose:",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/ch3-first-app": {
+      "id": "module-1/ch3-first-app",
+      "title": "Chapter 3: Your First ROS 2 Application: Building a Simple Robotic System",
+      "description": "Purpose:",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/ch4-advanced": {
+      "id": "module-1/ch4-advanced",
+      "title": "Chapter 4: Advanced ROS 2 Tooling, Introspection, and Best Practices",
+      "description": "Purpose:",
+      "sidebar": "tutorialSidebar"
+    },
     "module-1/index": {
       "id": "module-1/index",
       "title": "Module 1: The Robotic Nervous System (ROS 2)",
-      "description": "Master ROS 2 architecture, communication patterns, and robot modeling to build distributed robotic systems",
+      "description": "This is the overview page for Module 1. Content to be added.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/ros2-robotic-nervous-system": {
+      "id": "module-1/ros2-robotic-nervous-system",
+      "title": "The Robotic Nervous System (ROS 2)",
+      "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/03-building-a-robot-model": {
+      "id": "module-2/03-building-a-robot-model",
+      "title": "Chapter 3: Building a Robot Model (URDF)",
+      "description": "Intro",
       "sidebar": "tutorialSidebar"
     },
     "module-2/index": {
       "id": "module-2/index",
       "title": "Module 2: Digital Twins - Simulation & Sensors",
       "description": "Build digital twins for robotic systems using Gazebo and Unity to simulate sensors, physics, and environments",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/integrating-sensors": {
+      "id": "module-2/integrating-sensors",
+      "title": "Chapter 4: Integrating Sensors in Simulation",
+      "description": "Intro",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/intro-to-digital-twins": {
+      "id": "module-2/intro-to-digital-twins",
+      "title": "Chapter 1: Introduction to Digital Twins",
+      "description": "Intro",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/simulation-environments": {
+      "id": "module-2/simulation-environments",
+      "title": "Chapter 2: Simulation Environments for Robotics",
+      "description": "Intro",
       "sidebar": "tutorialSidebar"
     },
     "module-3/index": {

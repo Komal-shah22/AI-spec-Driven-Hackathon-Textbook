@@ -1,36 +1,115 @@
 {
-  "/AI-spec-Driven-Hackathon-Textbook/ur/docs-191": {
-    "__comp": "1be78505",
+  "/__docusaurus/debug-4eb": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "6485a284"
-    },
-    "versionMetadata": "935f2afb"
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
+    }
   },
-  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter-b22": {
-    "__comp": "17896441",
-    "content": "1178fc8c"
-  },
-  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/-a17": {
-    "__comp": "17896441",
-    "content": "51279860"
-  },
-  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/-f70": {
-    "__comp": "17896441",
-    "content": "5ad232c4"
-  },
-  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/-4f9": {
-    "__comp": "17896441",
-    "content": "9b44c66f"
-  },
-  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/-ab2": {
-    "__comp": "17896441",
-    "content": "c7dfbc38"
-  },
-  "/AI-spec-Driven-Hackathon-Textbook/ur/-af6": {
-    "__comp": "c4f5d8e4",
+  "/__docusaurus/debug/config-e38": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "dce8469f"
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
+    }
+  },
+  "/__docusaurus/debug/content-fb8": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
     },
-    "config": "5e9f5e1a"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-b0f": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
+    }
+  },
+  "/__docusaurus/debug/metadata-ae0": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
+    }
+  },
+  "/__docusaurus/debug/registry-8f7": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
+    }
+  },
+  "/__docusaurus/debug/routes-9ec": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-9-e6b"
+    }
+  },
+  "/docs-d87": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---docs-648-dbf"
+    },
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/Introduction/ros2-chapter-a9f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-introduction-ros-2-chapter-117-8b0"
+  },
+  "/docs/module-1/-242": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-512-6ba"
+  },
+  "/docs/module-1/ch1-intro-eb7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ch-1-introd-7-d-494"
+  },
+  "/docs/module-1/ch2-comm-daf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ch-2-commd-23-af7"
+  },
+  "/docs/module-1/ch3-first-app-bd1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ch-3-first-appca-9-33e"
+  },
+  "/docs/module-1/ch4-advanced-7c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ch-4-advanced-0-d-5-fb6"
+  },
+  "/docs/module-1/ros2-robotic-nervous-system-73c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-68-b-d34"
+  },
+  "/docs/module-2/-86e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-5-ad-bc6"
+  },
+  "/docs/module-2/building-a-robot-model-61f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-building-a-robot-model-2-ca-527"
+  },
+  "/docs/module-2/integrating-sensors-f3e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-integrating-sensors-9-af-836"
+  },
+  "/docs/module-2/intro-to-digital-twins-220": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-intro-to-digital-twinsb-54-803"
+  },
+  "/docs/module-2/simulation-environments-5c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-simulation-environmentscac-c83"
+  },
+  "/docs/module-3/-ad0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-9-b-4-f4c"
+  },
+  "/docs/module-4/-b23": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-c-7-d-d1e"
+  },
+  "/-844": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---dce-d33"
+    },
+    "config": "config---5-e-9-4f3"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module-2/building-a-robot-model",
+  "id": "module-2/building-a-robot-model",
+  "title": "باب 3: روبوٹ ماڈل بنانا (URDF)",
+  "description": "تعارف",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module-2/03-building-a-robot-model.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/building-a-robot-model",
+  "permalink": "/ur/docs/module-2/building-a-robot-model",
+  "draft": false,
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/03-building-a-robot-model.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "باب 3: روبوٹ ماڈل بنانا (URDF)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "باب 2: روبوٹکس کے لیے সিমুলেশন ماحول",
+    "permalink": "/ur/docs/module-2/simulation-environments"
+  },
+  "next": {
+    "title": "باب 4: সিমুলেশন میں سینسرز کو مربوط کرنا",
+    "permalink": "/ur/docs/module-2/integrating-sensors"
+  }
+}

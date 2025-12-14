@@ -28,7 +28,8 @@ export default function Home() {
           </p>
 
           <div className={styles.buttons}>
-            <a className={styles.btnPrimary} href="/docs/module-1">
+            <a className={styles.btnPrimary} href="
+            /docs/Introduction/ros2-chapter">
               Get Started →
             </a>
             <a className={styles.btnSecondary} href="/docs/module-1">
@@ -99,6 +100,21 @@ export default function Home() {
               <li>Visual SLAM & Locomotion</li>
             </ul>
           </div>
+          {/* -------- MODULE 4 -------- */}
+<div className={styles.moduleCard}>
+  <div className={styles.moduleNumber}>04</div>
+  <h3 className={styles.moduleTitle}>VLA & Humanoid Robotics</h3>
+  <p className={styles.moduleDesc}>
+    Build and control humanoid robots using Very Large Action Models (VLA).
+    Learn whole-body control, balance, locomotion, and robot embodiment systems.
+  </p>
+  <ul className={styles.moduleList}>
+    <li>Weeks 13–15</li>
+    <li>Humanoid Control + RL + VLA Models</li>
+    <li>Whole-Body Motion & Advanced Control Systems</li>
+  </ul>
+</div>
+
 
         </div>
       </section>

@@ -6,7 +6,7 @@
   "source": "@site/docs/module-3/index.md",
   "sourceDirName": "module-3",
   "slug": "/module-3/",
-  "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/",
+  "permalink": "/docs/module-3/",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-3/index.md",
   "tags": [],
@@ -41,11 +41,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Module 2: Digital Twin",
-    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/"
+    "title": "Chapter 4: Integrating Sensors in Simulation",
+    "permalink": "/docs/module-2/integrating-sensors"
   },
   "next": {
     "title": "Module 4: VLA & Humanoids",
-    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/"
+    "permalink": "/docs/module-4/"
   }
 }

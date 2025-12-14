@@ -1,0 +1,42 @@
+{
+  "unversionedId": "module-1/ros2-robotic-nervous-system",
+  "id": "module-1/ros2-robotic-nervous-system",
+  "title": "روبوٹک نروس سسٹم (ROS 2)",
+  "description": "ہیومنائڈ روبوٹکس کے لیے ROS 2 کی ایک جامع گائیڈ، جس میں بنیادی تصورات، ٹولز، اور ڈیولپمنٹ ورک فلوز شامل ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module-1/ros2-robotic-nervous-system.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ros2-robotic-nervous-system",
+  "permalink": "/ur/docs/module-1/ros2-robotic-nervous-system",
+  "draft": false,
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ros2-robotic-nervous-system.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "روبوٹک نروس سسٹم (ROS 2)",
+    "description": "ہیومنائڈ روبوٹکس کے لیے ROS 2 کی ایک جامع گائیڈ، جس میں بنیادی تصورات، ٹولز، اور ڈیولپمنٹ ورک فلوز شامل ہیں۔",
+    "keywords": [
+      "ROS 2",
+      "روبوٹکس",
+      "ہیومنائڈ",
+      "نوڈز",
+      "ٹاپکس",
+      "سروسز",
+      "ایکشنز",
+      "پیرامیٹرز",
+      "Rviz2",
+      "Rqt",
+      "Colcon"
+    ],
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ماڈیول 1: روبوٹک نروس سسٹم (ROS 2)",
+    "permalink": "/ur/docs/module-1/"
+  },
+  "next": {
+    "title": "باب 1: ROS 2 کا تعارف: روبوٹ کا دماغ اور اعصاب",
+    "permalink": "/ur/docs/module-1/ch1-intro"
+  }
+}

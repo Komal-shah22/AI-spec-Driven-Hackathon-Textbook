@@ -3,15 +3,18 @@
     "main"
   ],
   "origins": {
+    "249": [
+      401,
+      869,
+      249
+    ],
     "774": [
       774
     ],
     "17896441": [
+      249,
       869,
       401
-    ],
-    "51279860": [
-      513
     ],
     "main": [
       354,
@@ -23,36 +26,67 @@
       869,
       354
     ],
-    "1178fc8c": [
-      674
+    "03fd9f64": [
+      873
+    ],
+    "08c65df1": [
+      728
     ],
     "1be78505": [
       869,
       774
     ],
-    "5ad232c4": [
-      853
+    "1ec7c35e": [
+      223
+    ],
+    "2b85dc65": [
+      262
+    ],
+    "2ca3f065": [
+      359
+    ],
+    "4682d3fa": [
+      203
+    ],
+    "56c42868": [
+      11
     ],
     "6485a284": [
       957
     ],
+    "6cc7549c": [
+      811
+    ],
+    "8279266a": [
+      770
+    ],
     "935f2afb": [
       581
     ],
-    "9b44c66f": [
-      213
+    "9c7803d3": [
+      330
+    ],
+    "a77628df": [
+      784
+    ],
+    "b82978da": [
+      722
+    ],
+    "b8ee7e29": [
+      292
     ],
     "c4f5d8e4": [
       869,
       634
     ],
-    "c7dfbc38": [
-      267
+    "d7760d69": [
+      532
     ],
     "dce8469f": [
       588
     ],
     "styles": [
+      249,
       354,
       401,
       634,
@@ -62,57 +96,111 @@
     ]
   },
   "assets": {
-    "213": {
+    "11": {
       "js": [
         {
-          "file": "assets/js/9b44c66f.a4a6864f.js",
-          "hash": "dcf4a16868ed16dc",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/9b44c66f.a4a6864f.js"
+          "file": "assets/js/56c42868.ae3f2e89.js",
+          "hash": "8632b1d6663b687f",
+          "publicPath": "/ur/assets/js/56c42868.ae3f2e89.js"
         }
       ]
     },
-    "267": {
+    "203": {
       "js": [
         {
-          "file": "assets/js/c7dfbc38.5a4a2de9.js",
-          "hash": "cee2eaa28336a80c",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/c7dfbc38.5a4a2de9.js"
+          "file": "assets/js/4682d3fa.9686fe50.js",
+          "hash": "45418b8ad37026f6",
+          "publicPath": "/ur/assets/js/4682d3fa.9686fe50.js"
+        }
+      ]
+    },
+    "223": {
+      "js": [
+        {
+          "file": "assets/js/1ec7c35e.1c01e2fc.js",
+          "hash": "35bea9e60b8a83fe",
+          "publicPath": "/ur/assets/js/1ec7c35e.1c01e2fc.js"
+        }
+      ]
+    },
+    "249": {
+      "js": [
+        {
+          "file": "assets/js/249.7b80ae4d.js",
+          "hash": "1a5664c8d9dc32aa",
+          "publicPath": "/ur/assets/js/249.7b80ae4d.js"
+        }
+      ]
+    },
+    "262": {
+      "js": [
+        {
+          "file": "assets/js/2b85dc65.3f6dc3c2.js",
+          "hash": "0504dbee7ce42475",
+          "publicPath": "/ur/assets/js/2b85dc65.3f6dc3c2.js"
+        }
+      ]
+    },
+    "292": {
+      "js": [
+        {
+          "file": "assets/js/b8ee7e29.ac91a317.js",
+          "hash": "7b42eae71e36bfb1",
+          "publicPath": "/ur/assets/js/b8ee7e29.ac91a317.js"
+        }
+      ]
+    },
+    "330": {
+      "js": [
+        {
+          "file": "assets/js/9c7803d3.6c91a5bd.js",
+          "hash": "c6c97b60c8404ab4",
+          "publicPath": "/ur/assets/js/9c7803d3.6c91a5bd.js"
         }
       ]
     },
     "354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.5d1d94e7.js",
-          "hash": "d3b9c690160fcf68",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/runtime~main.5d1d94e7.js"
+          "file": "assets/js/runtime~main.f0aef0b6.js",
+          "hash": "0fbfc8135adaa713",
+          "publicPath": "/ur/assets/js/runtime~main.f0aef0b6.js"
+        }
+      ]
+    },
+    "359": {
+      "js": [
+        {
+          "file": "assets/js/2ca3f065.6c1fcef3.js",
+          "hash": "a36b7c3480c0466e",
+          "publicPath": "/ur/assets/js/2ca3f065.6c1fcef3.js"
         }
       ]
     },
     "401": {
       "js": [
         {
-          "file": "assets/js/17896441.12df1cab.js",
-          "hash": "3ddaeb8e3d20814c",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/17896441.12df1cab.js"
+          "file": "assets/js/17896441.d58e1e2f.js",
+          "hash": "f895a063a9af8d0e",
+          "publicPath": "/ur/assets/js/17896441.d58e1e2f.js"
         }
       ]
     },
-    "513": {
+    "532": {
       "js": [
         {
-          "file": "assets/js/51279860.7fbac2f3.js",
-          "hash": "c88ddd5dc02339be",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/51279860.7fbac2f3.js"
+          "file": "assets/js/d7760d69.8e841eb1.js",
+          "hash": "20c752f40a0c2519",
+          "publicPath": "/ur/assets/js/d7760d69.8e841eb1.js"
         }
       ]
     },
     "581": {
       "js": [
         {
-          "file": "assets/js/935f2afb.fc1acfdd.js",
-          "hash": "6759baf5843843e6",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/935f2afb.fc1acfdd.js"
+          "file": "assets/js/935f2afb.fcced228.js",
+          "hash": "cc7eda30eb908583",
+          "publicPath": "/ur/assets/js/935f2afb.fcced228.js"
         }
       ]
     },
@@ -121,25 +209,43 @@
         {
           "file": "assets/js/dce8469f.891a4fe5.js",
           "hash": "af84cfe133a116b4",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/dce8469f.891a4fe5.js"
+          "publicPath": "/ur/assets/js/dce8469f.891a4fe5.js"
         }
       ]
     },
     "634": {
       "js": [
         {
-          "file": "assets/js/c4f5d8e4.0a487895.js",
-          "hash": "07d3170c72e047d2",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/c4f5d8e4.0a487895.js"
+          "file": "assets/js/c4f5d8e4.daf69550.js",
+          "hash": "345bf199d58c3d9c",
+          "publicPath": "/ur/assets/js/c4f5d8e4.daf69550.js"
         }
       ]
     },
-    "674": {
+    "722": {
       "js": [
         {
-          "file": "assets/js/1178fc8c.fa852d0f.js",
-          "hash": "15e008034ca98354",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/1178fc8c.fa852d0f.js"
+          "file": "assets/js/b82978da.fb7b1e4f.js",
+          "hash": "a19c1f716d20c235",
+          "publicPath": "/ur/assets/js/b82978da.fb7b1e4f.js"
+        }
+      ]
+    },
+    "728": {
+      "js": [
+        {
+          "file": "assets/js/08c65df1.d497356b.js",
+          "hash": "ca452f1753cb65d7",
+          "publicPath": "/ur/assets/js/08c65df1.d497356b.js"
+        }
+      ]
+    },
+    "770": {
+      "js": [
+        {
+          "file": "assets/js/8279266a.ac9d0e37.js",
+          "hash": "de08c201ebffedf9",
+          "publicPath": "/ur/assets/js/8279266a.ac9d0e37.js"
         }
       ]
     },
@@ -148,30 +254,39 @@
         {
           "file": "assets/js/774.3000518e.js",
           "hash": "a71481f5afded050",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/774.3000518e.js"
+          "publicPath": "/ur/assets/js/774.3000518e.js"
         },
         {
           "file": "assets/js/1be78505.6a69d56f.js",
           "hash": "63989fd46f821819",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/1be78505.6a69d56f.js"
+          "publicPath": "/ur/assets/js/1be78505.6a69d56f.js"
+        }
+      ]
+    },
+    "784": {
+      "js": [
+        {
+          "file": "assets/js/a77628df.aa12bae3.js",
+          "hash": "c8fc321258728cee",
+          "publicPath": "/ur/assets/js/a77628df.aa12bae3.js"
         }
       ]
     },
     "792": {
       "js": [
         {
-          "file": "assets/js/main.01bce2f0.js",
-          "hash": "08000eff938f0afa",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/main.01bce2f0.js"
+          "file": "assets/js/main.a3d3ae2c.js",
+          "hash": "48da717f51d839e8",
+          "publicPath": "/ur/assets/js/main.a3d3ae2c.js"
         }
       ]
     },
-    "853": {
+    "811": {
       "js": [
         {
-          "file": "assets/js/5ad232c4.61fbe140.js",
-          "hash": "f287aaf458851a6f",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/5ad232c4.61fbe140.js"
+          "file": "assets/js/6cc7549c.e38d8158.js",
+          "hash": "ce80aeb20d9225b5",
+          "publicPath": "/ur/assets/js/6cc7549c.e38d8158.js"
         }
       ]
     },
@@ -180,7 +295,16 @@
         {
           "file": "assets/css/styles.11540b81.css",
           "hash": "f29b6ffd5b284e60",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/css/styles.11540b81.css"
+          "publicPath": "/ur/assets/css/styles.11540b81.css"
+        }
+      ]
+    },
+    "873": {
+      "js": [
+        {
+          "file": "assets/js/03fd9f64.f7dd3164.js",
+          "hash": "f0d04c03e591c665",
+          "publicPath": "/ur/assets/js/03fd9f64.f7dd3164.js"
         }
       ]
     },
@@ -189,7 +313,7 @@
         {
           "file": "assets/js/6485a284.55e09649.js",
           "hash": "24f2e3bcb2dc30a0",
-          "publicPath": "/AI-spec-Driven-Hackathon-Textbook/ur/assets/js/6485a284.55e09649.js"
+          "publicPath": "/ur/assets/js/6485a284.55e09649.js"
         }
       ]
     }

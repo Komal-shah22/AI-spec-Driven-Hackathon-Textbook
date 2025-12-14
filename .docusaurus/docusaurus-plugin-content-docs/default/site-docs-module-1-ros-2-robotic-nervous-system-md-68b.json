@@ -1,0 +1,42 @@
+{
+  "unversionedId": "module-1/ros2-robotic-nervous-system",
+  "id": "module-1/ros2-robotic-nervous-system",
+  "title": "The Robotic Nervous System (ROS 2)",
+  "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
+  "source": "@site/docs/module-1/ros2-robotic-nervous-system.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ros2-robotic-nervous-system",
+  "permalink": "/docs/module-1/ros2-robotic-nervous-system",
+  "draft": false,
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ros2-robotic-nervous-system.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "The Robotic Nervous System (ROS 2)",
+    "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
+    "keywords": [
+      "ROS 2",
+      "Robotics",
+      "Humanoid",
+      "Nodes",
+      "Topics",
+      "Services",
+      "Actions",
+      "Parameters",
+      "Rviz2",
+      "Rqt",
+      "Colcon"
+    ],
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
+    "permalink": "/docs/module-1/"
+  },
+  "next": {
+    "title": "Chapter 1: Introducing ROS 2: The Robot's Brain and Nerves",
+    "permalink": "/docs/module-1/ch1-intro"
+  }
+}

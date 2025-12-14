@@ -7,7 +7,7 @@ export default {
   "title": "Humanoid Robotics Book",
   "tagline": "The Robotic Nervous System",
   "url": "https://Komal-shah22.github.io",
-  "baseUrl": "/AI-spec-Driven-Hackathon-Textbook/ur/",
+  "baseUrl": "/",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

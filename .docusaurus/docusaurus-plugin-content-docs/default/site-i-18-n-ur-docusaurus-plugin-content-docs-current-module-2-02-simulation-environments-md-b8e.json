@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module-2/simulation-environments",
+  "id": "module-2/simulation-environments",
+  "title": "باب 2: روبوٹکس کے لیے সিমুলেশন ماحول",
+  "description": "تعارف",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module-2/02-simulation-environments.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/simulation-environments",
+  "permalink": "/ur/docs/module-2/simulation-environments",
+  "draft": false,
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/02-simulation-environments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "باب 2: روبوٹکس کے لیے সিমুলেশন ماحول"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "باب 1: ڈیجیٹل ٹوئنز کا تعارف",
+    "permalink": "/ur/docs/module-2/intro-to-digital-twins"
+  },
+  "next": {
+    "title": "Chapter 3: Building a Robot Model (URDF)",
+    "permalink": "/ur/docs/module-2/building-a-robot-model"
+  }
+}

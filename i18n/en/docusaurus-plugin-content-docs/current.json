@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Module 2: Digital Twin": {
+    "message": "Module 2: Digital Twin",
+    "description": "The label for category Module 2: Digital Twin in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: The Robotic Nervous System (ROS 2)": {
+    "message": "Module 1: The Robotic Nervous System (ROS 2)",
+    "description": "The label for category Module 1: The Robotic Nervous System (ROS 2) in sidebar tutorialSidebar"
+  }
+}

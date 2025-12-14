@@ -7,7 +7,7 @@ const config = {
   title: 'Humanoid Robotics Book',
   tagline: 'The Robotic Nervous System',
   url: 'https://Komal-shah22.github.io', // <-- GitHub Pages URL
-  baseUrl: '/AI-spec-Driven-Hackathon-Textbook/', // <-- Repository name
+  baseUrl: '/', // <-- Repository name
   onBrokenLinks: 'ignore', // Ignore broken links (no blog folder)
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

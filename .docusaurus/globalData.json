@@ -1,38 +1,83 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs",
-          "mainDocId": "module-1/index",
+          "path": "/docs",
+          "mainDocId": "module-2/index",
           "docs": [
             {
               "id": "Introduction/ros2-chapter",
-              "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter",
+              "path": "/docs/Introduction/ros2-chapter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch1-intro",
+              "path": "/docs/module-1/ch1-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch2-comm",
+              "path": "/docs/module-1/ch2-comm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch3-first-app",
+              "path": "/docs/module-1/ch3-first-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ch4-advanced",
+              "path": "/docs/module-1/ch4-advanced",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-1/index",
-              "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/",
+              "path": "/docs/module-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ros2-robotic-nervous-system",
+              "path": "/docs/module-1/ros2-robotic-nervous-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/03-building-a-robot-model",
+              "path": "/docs/module-2/building-a-robot-model",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-2/index",
-              "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/",
+              "path": "/docs/module-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/integrating-sensors",
+              "path": "/docs/module-2/integrating-sensors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/intro-to-digital-twins",
+              "path": "/docs/module-2/intro-to-digital-twins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/simulation-environments",
+              "path": "/docs/module-2/simulation-environments",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-3/index",
-              "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/",
+              "path": "/docs/module-3/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-4/index",
-              "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/",
+              "path": "/docs/module-4/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -40,8 +85,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/",
-                "label": "Module 1: ROS 2"
+                "path": "/docs/module-2/",
+                "label": "Module 2: Digital Twin"
               }
             }
           }

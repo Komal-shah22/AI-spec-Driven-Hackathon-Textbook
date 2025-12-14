@@ -1,0 +1,51 @@
+{
+  "unversionedId": "module-4/index",
+  "id": "module-4/index",
+  "title": "ماڈیول 4: VLA اور ہیومنائڈ روبوٹکس",
+  "description": "قدرتی انسانی روبوٹ تعامل اور ہیرا پھیری کے لیے ویژن-لینگویج-ایکشن ماڈلز کو ہیومنائڈ روبوٹس کے ساتھ مربوط کریں",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module-4/index.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/",
+  "permalink": "/ur/docs/module-4/",
+  "draft": false,
+  "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-4/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "ماڈیول 4: VLA اور ہیومنائڈ روبوٹکس",
+    "description": "قدرتی انسانی روبوٹ تعامل اور ہیرا پھیری کے لیے ویژن-لینگویج-ایکشن ماڈلز کو ہیومنائڈ روبوٹس کے ساتھ مربوط کریں",
+    "keywords": [
+      "VLA",
+      "ویژن لینگویج ایکشن",
+      "ہیومنائڈ روبوٹکس",
+      "کائیمیٹکس",
+      "ہیرا پھیری",
+      "بات چیت AI",
+      "مجسم AI"
+    ],
+    "sidebar_position": 1,
+    "sidebar_label": "ماڈیول 4: VLA اور ہیومنائڈز",
+    "estimated_time": 9,
+    "week": 11,
+    "module": 4,
+    "prerequisites": [
+      "module-3/index"
+    ],
+    "learning_objectives": [
+      "30+ ڈگری آف فریڈم والے ہیومنائڈ روبوٹس کے لیے فارورڈ اور انورس کائیمیٹکس کا حساب لگائیں",
+      "پک اینڈ پلیس کاموں کے لیے ہیرا پھیری پرائمیٹو (پہنچ، گرفت، جگہ) کو نافذ کریں",
+      "روبوٹ ایکشن پلاننگ کے ساتھ بات چیت AI (تقریر سے متن، LLMs) کو مربوط کریں",
+      "اینڈ ٹو اینڈ VLA سسٹمز کو تعینات کریں جو صوتی کمانڈز کو جسمانی اعمال میں ترجمہ کرتے ہیں"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ماڈیول 3: Isaac Sim",
+    "permalink": "/ur/docs/module-3/"
+  },
+  "next": {
+    "title": "روبوٹک نروس سسٹم (ROS 2)",
+    "permalink": "/ur/docs/Introduction/ros2-chapter"
+  }
+}

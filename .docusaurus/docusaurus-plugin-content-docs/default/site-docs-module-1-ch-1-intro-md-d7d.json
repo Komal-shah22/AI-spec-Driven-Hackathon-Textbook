@@ -6,7 +6,7 @@
   "source": "@site/docs/module-1/ch1-intro.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/ch1-intro",
-  "permalink": "/ur/docs/module-1/ch1-intro",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch1-intro",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch1-intro.md",
   "tags": [],
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "The Robotic Nervous System (ROS 2)",
-    "permalink": "/ur/docs/module-1/ros2-robotic-nervous-system"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ros2-robotic-nervous-system"
   },
   "next": {
     "title": "Chapter 2: ROS 2 Communication Mechanisms: Speaking the Robot's Language",
-    "permalink": "/ur/docs/module-1/ch2-comm"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch2-comm"
   }
 }

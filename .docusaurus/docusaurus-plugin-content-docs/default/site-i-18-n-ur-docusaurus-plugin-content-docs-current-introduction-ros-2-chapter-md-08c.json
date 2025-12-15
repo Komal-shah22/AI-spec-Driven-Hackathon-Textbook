@@ -2,11 +2,11 @@
   "unversionedId": "Introduction/ros2-chapter",
   "id": "Introduction/ros2-chapter",
   "title": "روبوٹک نروس سسٹم (ROS 2)",
-  "description": "ہیومنائڈ روبوٹکس کے لیے ROS 2 کی ایک جامع گائیڈ، جس میں بنیادی تصورات، ٹولز، اور ڈیولپمنٹ ورک فلوز شامل ہیں۔",
+  "description": "انسانی روبوٹکس کے لیے ROS 2 کی ایک جامع گائیڈ، جس میں بنیادی تصورات، ٹولز، اور ڈیولپمنٹ ورک فلو شامل ہیں۔",
   "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/Introduction/ros2-chapter.md",
   "sourceDirName": "Introduction",
   "slug": "/Introduction/ros2-chapter",
-  "permalink": "/ur/docs/Introduction/ros2-chapter",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/Introduction/ros2-chapter.md",
   "tags": [],
@@ -14,7 +14,7 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "title": "روبوٹک نروس سسٹم (ROS 2)",
-    "description": "ہیومنائڈ روبوٹکس کے لیے ROS 2 کی ایک جامع گائیڈ، جس میں بنیادی تصورات، ٹولز، اور ڈیولپمنٹ ورک فلوز شامل ہیں۔",
+    "description": "انسانی روبوٹکس کے لیے ROS 2 کی ایک جامع گائیڈ، جس میں بنیادی تصورات، ٹولز، اور ڈیولپمنٹ ورک فلو شامل ہیں۔",
     "keywords": [
       "ROS 2",
       "روبوٹکس",
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ماڈیول 4: VLA اور ہیومنائڈز",
-    "permalink": "/ur/docs/module-4/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/"
   },
   "next": {
     "title": "ماڈیول 1: روبوٹک نروس سسٹم (ROS 2)",
-    "permalink": "/ur/docs/module-1/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module-4/index.md",
   "sourceDirName": "module-4",
   "slug": "/module-4/",
-  "permalink": "/ur/docs/module-4/",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-4/index.md",
   "tags": [],
@@ -19,7 +19,7 @@
       "VLA",
       "ویژن لینگویج ایکشن",
       "ہیومنائڈ روبوٹکس",
-      "کائیمیٹکس",
+      "حرکیات",
       "ہیرا پھیری",
       "بات چیت AI",
       "مجسم AI"
@@ -33,19 +33,19 @@
       "module-3/index"
     ],
     "learning_objectives": [
-      "30+ ڈگری آف فریڈم والے ہیومنائڈ روبوٹس کے لیے فارورڈ اور انورس کائیمیٹکس کا حساب لگائیں",
-      "پک اینڈ پلیس کاموں کے لیے ہیرا پھیری پرائمیٹو (پہنچ، گرفت، جگہ) کو نافذ کریں",
+      "30+ ڈگری آزادی کے ساتھ ہیومنائڈ روبوٹس کے لیے فارورڈ اور انورس حرکیات کا حساب لگائیں",
+      "پک اینڈ پلیس کاموں کے لیے ہیرا پھیری کے پرائمٹوز (پہنچ، گرفت، جگہ) نافذ کریں",
       "روبوٹ ایکشن پلاننگ کے ساتھ بات چیت AI (تقریر سے متن، LLMs) کو مربوط کریں",
-      "اینڈ ٹو اینڈ VLA سسٹمز کو تعینات کریں جو صوتی کمانڈز کو جسمانی اعمال میں ترجمہ کرتے ہیں"
+      "اختتام سے آخر تک VLA سسٹمز تعینات کریں جو صوتی احکامات کو جسمانی اعمال میں ترجمہ کرتے ہیں"
     ]
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ماڈیول 3: Isaac Sim",
-    "permalink": "/ur/docs/module-3/"
+    "title": "ماڈیول 3: اسحاق سم",
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/"
   },
   "next": {
     "title": "روبوٹک نروس سسٹم (ROS 2)",
-    "permalink": "/ur/docs/Introduction/ros2-chapter"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter"
   }
 }

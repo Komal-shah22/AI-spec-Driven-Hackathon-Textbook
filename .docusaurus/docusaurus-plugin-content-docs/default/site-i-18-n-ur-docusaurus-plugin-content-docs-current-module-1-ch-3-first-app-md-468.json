@@ -6,21 +6,19 @@
   "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/module-1/ch3-first-app.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/ch3-first-app",
-  "permalink": "/ur/docs/module-1/ch3-first-app",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch3-first-app",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch3-first-app.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {
-    "title": "باب 3: آپ کی پہلی ROS 2 ایپلی کیشن: ایک سادہ روبوٹک سسٹم بنانا"
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "باب 2: ROS 2 کمیونیکیشن میکانزم: روبوٹ کی زبان بولنا",
-    "permalink": "/ur/docs/module-1/ch2-comm"
+    "title": "باب 2: ROS 2 مواصلاتی میکانزم: روبوٹ کی زبان بولنا",
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch2-comm"
   },
   "next": {
-    "title": "باب 4: اعلی درجے کی ROS 2 ٹولنگ، انٹروسپیکشن، اور بہترین طریقہ کار",
-    "permalink": "/ur/docs/module-1/ch4-advanced"
+    "title": "باب 4: جدید ROS 2 ٹولنگ، انٹروسپیکشن، اور بہترین طریقہ کار",
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch4-advanced"
   }
 }

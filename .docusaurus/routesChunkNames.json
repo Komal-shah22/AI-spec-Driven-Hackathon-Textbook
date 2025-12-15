@@ -1,68 +1,68 @@
 {
-  "/ur/docs-1ea": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs-314": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "6485a284"
     },
     "versionMetadata": "935f2afb"
   },
-  "/ur/docs/Introduction/ros2-chapter-58d": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter-5bb": {
     "__comp": "17896441",
-    "content": "1178fc8c"
+    "content": "08c65df1"
   },
-  "/ur/docs/module-1/-c78": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/-264": {
     "__comp": "17896441",
-    "content": "51279860"
+    "content": "d7760d69"
   },
-  "/ur/docs/module-1/ch1-intro-a88": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch1-intro-c61": {
     "__comp": "17896441",
-    "content": "d7da0d8e"
+    "content": "9c7803d3"
   },
-  "/ur/docs/module-1/ch2-comm-b55": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch2-comm-d4c": {
     "__comp": "17896441",
-    "content": "d233e746"
+    "content": "a77628df"
   },
-  "/ur/docs/module-1/ch3-first-app-3e1": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch3-first-app-eae": {
     "__comp": "17896441",
-    "content": "ca9b66c4"
+    "content": "4682d3fa"
   },
-  "/ur/docs/module-1/ch4-advanced-f42": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch4-advanced-ddc": {
     "__comp": "17896441",
-    "content": "0d566872"
+    "content": "56c42868"
   },
-  "/ur/docs/module-1/ros2-robotic-nervous-system-cfd": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ros2-robotic-nervous-system-f86": {
     "__comp": "17896441",
-    "content": "68b19ac5"
+    "content": "1ec7c35e"
   },
-  "/ur/docs/module-2/-1ea": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/-644": {
     "__comp": "17896441",
-    "content": "5ad232c4"
+    "content": "03fd9f64"
   },
-  "/ur/docs/module-2/building-a-robot-model-01f": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/building-a-robot-model-56e": {
     "__comp": "17896441",
-    "content": "2ca3f065"
+    "content": "d3dd6b61"
   },
-  "/ur/docs/module-2/integrating-sensors-5f0": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/integrating-sensors-933": {
     "__comp": "17896441",
-    "content": "9afcc8eb"
+    "content": "8279266a"
   },
-  "/ur/docs/module-2/intro-to-digital-twins-466": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/intro-to-digital-twins-dfe": {
     "__comp": "17896441",
-    "content": "b547b260"
+    "content": "b82978da"
   },
-  "/ur/docs/module-2/simulation-environments-e06": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/simulation-environments-2a7": {
     "__comp": "17896441",
-    "content": "cac3ac00"
+    "content": "b8ee7e29"
   },
-  "/ur/docs/module-3/-a0f": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/-016": {
     "__comp": "17896441",
-    "content": "9b44c66f"
+    "content": "2b85dc65"
   },
-  "/ur/docs/module-4/-2cd": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/-977": {
     "__comp": "17896441",
-    "content": "c7dfbc38"
+    "content": "6cc7549c"
   },
-  "/ur/-0fa": {
+  "/AI-spec-Driven-Hackathon-Textbook/ur/-af6": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "dce8469f"

@@ -3,98 +3,98 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ur/docs',
-    component: ComponentCreator('/ur/docs', '1ea'),
+    path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs',
+    component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs', '314'),
     routes: [
       {
-        path: '/ur/docs/Introduction/ros2-chapter',
-        component: ComponentCreator('/ur/docs/Introduction/ros2-chapter', '58d'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/Introduction/ros2-chapter', '5bb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-1/',
-        component: ComponentCreator('/ur/docs/module-1/', 'c78'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/', '264'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-1/ch1-intro',
-        component: ComponentCreator('/ur/docs/module-1/ch1-intro', 'a88'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch1-intro',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch1-intro', 'c61'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-1/ch2-comm',
-        component: ComponentCreator('/ur/docs/module-1/ch2-comm', 'b55'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch2-comm',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch2-comm', 'd4c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-1/ch3-first-app',
-        component: ComponentCreator('/ur/docs/module-1/ch3-first-app', '3e1'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch3-first-app',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch3-first-app', 'eae'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-1/ch4-advanced',
-        component: ComponentCreator('/ur/docs/module-1/ch4-advanced', 'f42'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch4-advanced',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ch4-advanced', 'ddc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-1/ros2-robotic-nervous-system',
-        component: ComponentCreator('/ur/docs/module-1/ros2-robotic-nervous-system', 'cfd'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ros2-robotic-nervous-system',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-1/ros2-robotic-nervous-system', 'f86'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-2/',
-        component: ComponentCreator('/ur/docs/module-2/', '1ea'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/', '644'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-2/building-a-robot-model',
-        component: ComponentCreator('/ur/docs/module-2/building-a-robot-model', '01f'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/building-a-robot-model',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/building-a-robot-model', '56e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-2/integrating-sensors',
-        component: ComponentCreator('/ur/docs/module-2/integrating-sensors', '5f0'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/integrating-sensors',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/integrating-sensors', '933'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-2/intro-to-digital-twins',
-        component: ComponentCreator('/ur/docs/module-2/intro-to-digital-twins', '466'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/intro-to-digital-twins',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/intro-to-digital-twins', 'dfe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-2/simulation-environments',
-        component: ComponentCreator('/ur/docs/module-2/simulation-environments', 'e06'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/simulation-environments',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-2/simulation-environments', '2a7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-3/',
-        component: ComponentCreator('/ur/docs/module-3/', 'a0f'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-3/', '016'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ur/docs/module-4/',
-        component: ComponentCreator('/ur/docs/module-4/', '2cd'),
+        path: '/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/',
+        component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/docs/module-4/', '977'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/ur/',
-    component: ComponentCreator('/ur/', '0fa'),
+    path: '/AI-spec-Driven-Hackathon-Textbook/ur/',
+    component: ComponentCreator('/AI-spec-Driven-Hackathon-Textbook/ur/', 'af6'),
     exact: true
   },
   {

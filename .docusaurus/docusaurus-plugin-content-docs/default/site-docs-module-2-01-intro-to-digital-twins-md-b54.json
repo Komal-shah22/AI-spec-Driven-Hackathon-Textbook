@@ -6,7 +6,7 @@
   "source": "@site/docs/module-2/01-intro-to-digital-twins.md",
   "sourceDirName": "module-2",
   "slug": "/module-2/intro-to-digital-twins",
-  "permalink": "/ur/docs/module-2/intro-to-digital-twins",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/intro-to-digital-twins",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/01-intro-to-digital-twins.md",
   "tags": [],
@@ -16,10 +16,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2: Digital Twin",
-    "permalink": "/ur/docs/module-2/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/"
   },
   "next": {
     "title": "Chapter 2: Simulation Environments for Robotics",
-    "permalink": "/ur/docs/module-2/simulation-environments"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/simulation-environments"
   }
 }

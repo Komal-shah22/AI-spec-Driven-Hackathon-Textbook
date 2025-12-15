@@ -6,7 +6,7 @@
   "source": "@site/docs/module-1/ros2-robotic-nervous-system.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/ros2-robotic-nervous-system",
-  "permalink": "/ur/docs/module-1/ros2-robotic-nervous-system",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ros2-robotic-nervous-system",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ros2-robotic-nervous-system.md",
   "tags": [],
@@ -33,10 +33,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 1: The Robotic Nervous System (ROS 2)",
-    "permalink": "/ur/docs/module-1/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/"
   },
   "next": {
     "title": "Chapter 1: Introducing ROS 2: The Robot's Brain and Nerves",
-    "permalink": "/ur/docs/module-1/ch1-intro"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch1-intro"
   }
 }

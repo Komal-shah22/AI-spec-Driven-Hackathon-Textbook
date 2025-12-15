@@ -6,7 +6,7 @@
   "source": "@site/docs/module-2/index.md",
   "sourceDirName": "module-2",
   "slug": "/module-2/",
-  "permalink": "/ur/docs/module-2/",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/index.md",
   "tags": [],
@@ -42,6 +42,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Chapter 1: Introduction to Digital Twins",
-    "permalink": "/ur/docs/module-2/intro-to-digital-twins"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/intro-to-digital-twins"
   }
 }

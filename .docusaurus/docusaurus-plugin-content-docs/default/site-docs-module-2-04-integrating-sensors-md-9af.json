@@ -6,7 +6,7 @@
   "source": "@site/docs/module-2/04-integrating-sensors.md",
   "sourceDirName": "module-2",
   "slug": "/module-2/integrating-sensors",
-  "permalink": "/ur/docs/module-2/integrating-sensors",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/integrating-sensors",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/04-integrating-sensors.md",
   "tags": [],
@@ -16,10 +16,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3: Building a Robot Model (URDF)",
-    "permalink": "/ur/docs/module-2/building-a-robot-model"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/building-a-robot-model"
   },
   "next": {
     "title": "Module 3: Isaac Sim",
-    "permalink": "/ur/docs/module-3/"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-3/"
   }
 }

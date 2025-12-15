@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "انسانی روبوٹکس کتاب",
+    "description": "The title in the navbar"
+  },
+  "item.label.Textbook": {
+    "message": "درسی کتاب",
+    "description": "Navbar item with label Textbook"
+  },
+  "item.label.GitHub": {
+    "message": "گٹ ہب",
+    "description": "Navbar item with label GitHub"
+  }
+}

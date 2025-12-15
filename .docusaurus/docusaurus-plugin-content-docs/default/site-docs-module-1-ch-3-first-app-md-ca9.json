@@ -6,7 +6,7 @@
   "source": "@site/docs/module-1/ch3-first-app.md",
   "sourceDirName": "module-1",
   "slug": "/module-1/ch3-first-app",
-  "permalink": "/ur/docs/module-1/ch3-first-app",
+  "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch3-first-app",
   "draft": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch3-first-app.md",
   "tags": [],
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: ROS 2 Communication Mechanisms: Speaking the Robot's Language",
-    "permalink": "/ur/docs/module-1/ch2-comm"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch2-comm"
   },
   "next": {
     "title": "Chapter 4: Advanced ROS 2 Tooling, Introspection, and Best Practices",
-    "permalink": "/ur/docs/module-1/ch4-advanced"
+    "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch4-advanced"
   }
 }

@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from './Chatbot.module.css';
 
 export default function Chatbot() {
@@ -8,27 +7,34 @@ export default function Chatbot() {
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [showWelcome, setShowWelcome] = useState(true);
+  const messagesEndRef = useRef(null);
 
-  // Slide away welcome message when user sends first message
+  // Scroll to bottom on new message
   useEffect(() => {
-    if (messages.length > 0 && showWelcome) {
-      setShowWelcome(false);
-    }
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
   const sendMessage = async () => {
-    if (!input.trim()) return;
+    const trimmedInput = input.trim();
+    if (!trimmedInput) return;
 
-    const newMsg = { text: input, sender: "user" };
-    setMessages(prev => [...prev, newMsg]);
+    // Fade-out welcome message on first user message
+    if (showWelcome) {
+      const welcomeEl = document.querySelector(`.${styles.welcome}`);
+      if (welcomeEl) welcomeEl.classList.add(styles["fadeOut"]);
+      setTimeout(() => setShowWelcome(false), 500); // match CSS transition
+    }
+
+    const userMsg = { text: trimmedInput, sender: "user" };
+    setMessages(prev => [...prev, userMsg]);
     setInput("");
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch("http://aispecdrivenbookbackend-production.up.railway.app/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ user_query: input })
+        body: JSON.stringify({ user_query: trimmedInput })
       });
 
       const data = await res.json();
@@ -40,7 +46,14 @@ export default function Chatbot() {
     }
   };
 
-  const clearChat = () => setMessages([]);
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') sendMessage();
+  };
+
+  const clearChat = () => {
+    setMessages([]);
+    setShowWelcome(true);
+  };
 
   return (
     <>
@@ -78,6 +91,7 @@ export default function Chatbot() {
                 Thinking...
               </div>
             )}
+            <div ref={messagesEndRef} />
           </div>
 
           <div className={styles.inputContainer}>
@@ -87,8 +101,9 @@ export default function Chatbot() {
               value={input}
               placeholder="Ask about the book..."
               onChange={(e) => setInput(e.target.value)}
+              onKeyDown={handleKeyPress}
             />
-            <button className={styles.sendButton} onClick={sendMessage}>
+            <button className={styles.sendButton} onClick={sendMessage} disabled={loading}>
               Send
             </button>
           </div>

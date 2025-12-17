@@ -269,5 +269,29 @@
   "theme.tags.tagsPageTitle": {
     "message": "ٹیگز",
     "description": "The title of the tag list page"
+  },
+  "theme.auth.login": {
+    "message": "لاگ ان",
+    "description": "Button to log in"
+  },
+  "theme.auth.signup": {
+    "message": "سائن اپ",
+    "description": "Button to sign up"
+  },
+  "theme.auth.logout": {
+    "message": "لاگ آؤٹ",
+    "description": "Button to log out"
+  },
+  "theme.personalization.enable": {
+    "message": "پرسنلائزیشن فعال کریں",
+    "description": "Button to enable content personalization"
+  },
+  "theme.personalization.disable": {
+    "message": "پرسنلائزیشن غیر فعال کریں",
+    "description": "Button to disable content personalization"
+  },
+  "theme.personalization.reset": {
+    "message": "پرسنلائزیشن ری سیٹ کریں",
+    "description": "Button to reset content personalization settings"
   }
 }

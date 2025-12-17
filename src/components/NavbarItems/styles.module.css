@@ -1,0 +1,22 @@
+.authButtons {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.userProfileImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.userProfileName {
+  font-weight: bold;
+}

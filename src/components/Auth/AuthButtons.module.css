@@ -1,0 +1,21 @@
+/* src/components/Auth/AuthButtons.module.css */
+.loading {
+  padding: 8px 12px;
+  color: var(--ifm-navbar-link-color);
+}
+
+.authButton {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-font-color-inverse);
+  border: none;
+  border-radius: var(--ifm-button-border-radius);
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.authButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+}

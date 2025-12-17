@@ -69,15 +69,17 @@ const config = {
           position: 'right',
         },
         {
-          type: 'custom-AuthButtonsNavbarItem',
-          position: 'right',
-        },
-        {
-          type: 'custom-UserProfileNavbarItem',
-          position: 'right',
-        },
-        {
           type: 'localeDropdown',
+          position: 'right',
+        },
+        {
+          to: '/login',
+          label: 'Login',
+          position: 'right',
+        },
+        {
+          to: '/signup',
+          label: 'Signup',
           position: 'right',
         },
       ],

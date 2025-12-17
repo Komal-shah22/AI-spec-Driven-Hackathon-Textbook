@@ -7,7 +7,7 @@ export default {
   "title": "Humanoid Robotics Book",
   "tagline": "The Robotic Nervous System",
   "url": "https://Komal-shah22.github.io",
-  "baseUrl": "/AI-spec-Driven-Hackathon-Textbook/ur/",
+  "baseUrl": "/AI-spec-Driven-Hackathon-Textbook/",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -51,7 +51,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "انسانی روبوٹکس کتاب",
+      "title": "Humanoid Robotics Book",
       "logo": {
         "alt": "",
         "src": "img/logo.svg"
@@ -61,11 +61,11 @@ export default {
           "type": "doc",
           "docId": "Introduction/ros2-chapter",
           "position": "left",
-          "label": "درسی کتاب"
+          "label": "Textbook"
         },
         {
           "href": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook",
-          "label": "گٹ ہب",
+          "label": "GitHub",
           "position": "right"
         },
         {
@@ -73,6 +73,16 @@ export default {
           "position": "right",
           "dropdownItemsBefore": [],
           "dropdownItemsAfter": []
+        },
+        {
+          "to": "/login",
+          "label": "Login",
+          "position": "right"
+        },
+        {
+          "to": "/signup",
+          "label": "Signup",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -81,42 +91,42 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "دستاویزات",
+          "title": "Docs",
           "items": [
             {
-              "label": "ROS 2 باب",
+              "label": "ROS 2 Chapter",
               "to": "/docs/Introduction/ros2-chapter"
             }
           ]
         },
         {
-          "title": "برادری",
+          "title": "Community",
           "items": [
             {
-              "label": "اسٹیک اوور فلو",
+              "label": "Stack Overflow",
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
-              "label": "ڈسکارڈ",
+              "label": "Discord",
               "href": "https://discordapp.com/invite/docusaurus"
             },
             {
-              "label": "ٹویٹر",
+              "label": "Twitter",
               "href": "https://twitter.com/docusaurus"
             }
           ]
         },
         {
-          "title": "مزید",
+          "title": "More",
           "items": [
             {
-              "label": "گٹ ہب",
+              "label": "GitHub",
               "href": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook"
             }
           ]
         }
       ],
-      "copyright": "کاپی رائٹ © 2025 انسانی روبوٹکس کتاب۔ ڈوکوسارس کے ساتھ بنایا گیا۔"
+      "copyright": "Copyright © 2025 Humanoid Robotics Book. Built with Docusaurus."
     },
     "prism": {
       "theme": {

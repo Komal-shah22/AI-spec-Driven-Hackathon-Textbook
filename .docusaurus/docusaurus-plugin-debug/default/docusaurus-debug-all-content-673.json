@@ -569,6 +569,16 @@
         "type": "jsx",
         "permalink": "/AI-spec-Driven-Hackathon-Textbook/",
         "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/AI-spec-Driven-Hackathon-Textbook/login",
+        "source": "@site/src/pages/login.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/AI-spec-Driven-Hackathon-Textbook/signup",
+        "source": "@site/src/pages/signup.js"
       }
     ]
   },

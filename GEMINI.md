@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- JavaScript (ES6+) with React, running on Docusaurus v2. + `react`, `@docusaurus/core`. External dependency on `better-auth.com` for authentication services. (005-auth-personalization)
+- User profile data (including background) will be stored authoritatively in `better-auth.com`. Non-sensitive UI state (e.g., personalization toggle status) will use browser `localStorage`. (005-auth-personalization)
+
+## Recent Changes
+- 005-auth-personalization: Added JavaScript (ES6+) with React, running on Docusaurus v2. + `react`, `@docusaurus/core`. External dependency on `better-auth.com` for authentication services.

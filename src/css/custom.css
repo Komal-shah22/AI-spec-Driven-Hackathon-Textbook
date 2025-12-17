@@ -3,30 +3,194 @@
 :root {
   --ifm-background-color: #000814;
   --ifm-text-color: white;
+  --ifm-color-primary: #37b6ff; /* A vibrant blue for primary actions */
+  --ifm-color-primary-dark: #2a94d8;
+  --ifm-color-primary-darker: #2583c4;
+  --ifm-color-primary-darkest: #1f6ea9;
+  --ifm-color-primary-light: #49c4ff;
+  --ifm-color-primary-lighter: #5fcbff;
+  --ifm-color-primary-lightest: #76d2ff;
+  
+  --ifm-color-secondary: #49c4ff; /* A contrasting color for secondary actions/accents */
+  --ifm-color-secondary-dark: #49c4ff;
+  --ifm-color-secondary-darker: #49c4ff;
+  
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Audiowide', sans-serif;
+  --ifm-font-family-monospace: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
 }
 
 html[data-theme='dark'] {
   --ifm-background-color: #000814;
   --ifm-text-color: white;
+  --ifm-color-emphasis-100: #f0f2f5;
+  --ifm-color-emphasis-200: #e6e9ed;
+  --ifm-color-emphasis-300: #dde1e6;
+  --ifm-color-emphasis-400: #d3d9e0;
+  --ifm-color-emphasis-500: #c9d0d9;
+  --ifm-color-emphasis-600: #b0b8c4;
+  --ifm-color-emphasis-700: #97a0ad;
+  --ifm-color-emphasis-800: #7d8896;
+  --ifm-color-emphasis-900: #647080;
+  --ifm-color-white: #ffffff;
+  --ifm-color-gray-50: #f8f8f8;
+  --ifm-color-gray-100: #f0f0f0;
+  --ifm-color-gray-200: #e8e8e8;
+  --ifm-color-gray-300: #dcdcdc;
+  --ifm-color-gray-400: #c8c8c8;
+  --ifm-color-gray-500: #a0a0a0;
+  --ifm-color-gray-600: #888888;
+  --ifm-color-gray-700: #666666;
+  --ifm-color-gray-800: #444444;
+  --ifm-color-gray-900: #222222;
+  --ifm-background-surface-color: #000a18; /* Slightly lighter than background for cards/forms */
+  --ifm-heading-color: #ffffff;
 }
 
 html[data-theme='light'] {
   --ifm-background-color: white;
   --ifm-text-color: #000814;
+  --ifm-color-emphasis-100: #0f0d0d;
+  --ifm-color-emphasis-200: #1a1515;
+  --ifm-color-emphasis-300: #261e1e;
+  --ifm-color-emphasis-400: #312626;
+  --ifm-color-emphasis-500: #3c2e2e;
+  --ifm-color-emphasis-600: #554444;
+  --ifm-color-emphasis-700: #6e5959;
+  --ifm-color-emphasis-800: #876f6f;
+  --ifm-color-emphasis-900: #9f8484;
+  --ifm-color-black: #000000;
+  --ifm-color-gray-50: #f8f8f8;
+  --ifm-color-gray-100: #f0f0f0;
+  --ifm-color-gray-200: #e8e8e8;
+  --ifm-color-gray-300: #dcdcdc;
+  --ifm-color-gray-400: #c8c8c8;
+  --ifm-color-gray-500: #a0a0a0;
+  --ifm-color-gray-600: #888888;
+  --ifm-color-gray-700: #666666;
+  --ifm-color-gray-800: #444444;
+  --ifm-color-gray-900: #222222;
+  --ifm-background-surface-color: #f8f8f8; /* Slightly darker than background for cards/forms */
+  /* --ifm-heading-color: #000814; */
 }
 
 .theme-doc-sidebar-item-link:hover {
-  border-left: 3px solid #37b6ff;
+  border-left: 3px solid var(--ifm-color-primary);
 }
 
 .theme-doc-sidebar-container {
-  border-right: 1px solid #37b6ff; /* Apply border to the sidebar container */
+  border-right: 1px solid var(--ifm-color-primary); /* Apply border to the sidebar container */
 }
 
 .theme-doc-sidebar-container:hover {
-  box-shadow: 0 0 10px #37b6ff; /* Add shadow effect on hover */
+  box-shadow: 0 0 10px var(--ifm-color-primary); /* Add shadow effect on hover */
 }
 
 body {
-  font-family: 'Audiowide', sans-serif;
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-text-color);
+  background-color: var(--ifm-background-color);
+}
+
+/* Modern Form Styles */
+.form-container {
+  background-color: var(--ifm-background-surface-color);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 3rem auto;
+  animation: fadeIn 0.5s ease-out;
+  border: 1px solid var(--ifm-color-primary);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--ifm-heading-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+  color: var(--ifm-text-color);
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-text-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus,
+.form-select:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(55, 182, 255, 0.3); /* ifm-color-primary with transparency */
+  outline: none;
+}
+
+.form-button {
+  width: 100%;
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.form-link {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+/* Adjustments for existing Docusaurus button styles */
+.button.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+.button.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+.button.button--secondary {
+  background-color: var(--ifm-color-secondary);
+  color: white;
+}
+.button.button--secondary:hover {
+  background-color: var(--ifm-color-secondary-dark);
 }

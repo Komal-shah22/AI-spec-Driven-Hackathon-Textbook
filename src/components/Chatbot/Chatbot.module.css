@@ -22,8 +22,9 @@
   position: fixed;
   bottom: 100px;
   right: 30px;
-  width: 330px;
-  height: 450px;
+  width: 350px;
+  max-width: 90%;
+  height: 500px;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0px 5px 18px rgba(0,0,0,0.25);
@@ -66,6 +67,8 @@
   padding: 12px;
   overflow-y: auto;
   background: #f7f9fc;
+  display: flex;
+  flex-direction: column;
 }
 
 .message {
@@ -75,18 +78,30 @@
   font-size: 14px;
   max-width: 80%;
   line-height: 1.4;
+  word-wrap: break-word;
 }
 
 .user { background: #01011d; color: white; align-self: flex-end; margin-left: auto; }
-.bot { background: #4b8df8; align-self: flex-start; margin-right: auto; }
+.bot { background: #4b8df8; color: white; align-self: flex-start; margin-right: auto; }
 .error { background: #ffdddd; color: #d10000; border-left: 4px solid red; }
 
 /* Welcome message style */
 .welcome {
-  background: #4b8df8;
-  color: white;
   text-align: center;
-  animation: slideAway 0.5s ease forwards;
+  background-color: #4b8df8;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  /* Remove automatic slideAway */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Optional: add fade-out when removed via React */
+.welcome.fade-out {
+  opacity: 0;
+  transform: translateY(-20px);
 }
 
 @keyframes slideAway {
@@ -109,9 +124,9 @@
   border: 1px solid #ccc;
   outline: none;
   font-size: 14px;
+  background: #f0f4ff;
+  color: #01011d;
   transition: 0.2s ease;
-  background: #4b8df8;
-  color: white;
 }
 
 .inputField:focus { border-color: #4b8df8; }
@@ -128,11 +143,4 @@
 }
 
 .sendButton:hover { background: #357ae8; }
-
-
-.welcome {
-  text-align: center;
-  background-color: #4b8df8;
-  color: white;
-  font-weight: bold;
-}
+.sendButton:disabled { background: #a0c0f8; cursor: not-allowed; }

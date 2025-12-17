@@ -269,5 +269,29 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "theme.auth.login": {
+    "message": "Login",
+    "description": "Button to log in"
+  },
+  "theme.auth.signup": {
+    "message": "Sign Up",
+    "description": "Button to sign up"
+  },
+  "theme.auth.logout": {
+    "message": "Logout",
+    "description": "Button to log out"
+  },
+  "theme.personalization.enable": {
+    "message": "Enable Personalization",
+    "description": "Button to enable content personalization"
+  },
+  "theme.personalization.disable": {
+    "message": "Disable Personalization",
+    "description": "Button to disable content personalization"
+  },
+  "theme.personalization.reset": {
+    "message": "Reset Personalization",
+    "description": "Button to reset content personalization settings"
   }
 }

@@ -28,11 +28,10 @@ export default function Home() {
           </p>
 
           <div className={styles.buttons}>
-            <a className={styles.btnPrimary} href="
-            /docs/Introduction/ros2-chapter">
+            <a className={styles.btnPrimary} href="/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ros2-robotic-nervous-system">
               Get Started →
             </a>
-            <a className={styles.btnSecondary} href="/docs/module-1">
+            <a className={styles.btnSecondary} href="/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch1-intro">
               Browse Content
             </a>
           </div>

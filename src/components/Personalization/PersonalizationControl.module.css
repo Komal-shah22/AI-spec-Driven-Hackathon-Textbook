@@ -1,0 +1,22 @@
+/* src/components/Personalization/PersonalizationControl.module.css */
+.controlContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.controlButton {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-font-color-inverse);
+  border: none;
+  border-radius: var(--ifm-button-border-radius);
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.controlButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+}

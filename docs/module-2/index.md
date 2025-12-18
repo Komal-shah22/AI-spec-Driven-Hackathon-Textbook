@@ -18,7 +18,8 @@ learning_objectives:
 # Module 2: Digital Twins - Simulation & Sensors
 
 **Duration**: Weeks 6-7 | **Estimated Time**: 6 hours
-**Prerequisites**: [Module 1: ROS 2](../module-1/index.md)
+**Prerequisites**: [Module 1: ROS 2](module-1/index)
+
 
 ---
 
@@ -113,7 +114,9 @@ Create a simulated environment with a robot navigating obstacles using sensor da
 
 ---
 
-**Questions?** <!-- Check the [Glossary](../references/glossary.md) for simulation terminology or consult course forums. -->
+**Questions?** 
 
-**Previous Module**: [Module 1: ROS 2](../module-1/index.md)
-**Next Module**: [Module 3: NVIDIA Isaac](../module-3-isaac/index.md)
+**Previous Module**: [Module 1: ROS 2](module-1/index)
+
+**Next Module**: [Module 3: NVIDIA Isaac](module-3/index)
+

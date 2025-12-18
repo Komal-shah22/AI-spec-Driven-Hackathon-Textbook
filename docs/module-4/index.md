@@ -18,7 +18,8 @@ learning_objectives:
 # Module 4: VLA & Humanoid Robotics
 
 **Duration**: Weeks 11-13 | **Estimated Time**: 9 hours
-**Prerequisites**: [Module 3: Isaac Sim](../module-3/index.md)
+**Prerequisites**: [Module 3: Isaac Sim](module-3/index)
+
 
 ---
 
@@ -156,11 +157,12 @@ This course is **hardware-agnostic**, but examples use common platforms:
 
 1. **Complete Module 3**: Ensure you understand VSLAM and Nav2
 2. **Review Linear Algebra**: Brush up on rotation matrices, homogeneous transforms
-3. **Install MoveIt 2**: <!-- Follow [Workstation Setup](../setup/workstation.md) -->
+3. **Install MoveIt 2**: 
 4. **Start Week 11**: Humanoid Kinematics *(Coming Soon)*
 
 ---
 
-**Questions?** <!-- Check the [Glossary](../references/glossary.md) for VLA and humanoid terminology or consult course forums. -->
+**Questions?**
 
-**Previous Module**: [Module 3: Isaac Sim](../module-3/index.md)
+**Previous Module**: [Module 3: Isaac Sim](module-3/index)
+

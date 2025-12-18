@@ -18,7 +18,8 @@ learning_objectives:
 # Module 3: NVIDIA Isaac - Perception & Navigation
 
 **Duration**: Weeks 8-10 | **Estimated Time**: 9 hours
-**Prerequisites**: [Module 2: Digital Twin](../module-2/index.md), RTX GPU
+**Prerequisites**: [Module 2: Digital Twin](module-2/index), RTX GPU
+
 
 ---
 
@@ -117,7 +118,8 @@ Isaac Sim requires:
 - **OS**: Ubuntu 20.04/22.04 or Windows 10/11
 - **Storage**: 50GB for Isaac Sim + assets
 
-**Don't have an RTX GPU?** <!-- Use the [Cloud Setup Guide](../setup/cloud.md) for AWS/Azure options. -->
+**Don't have an RTX GPU?** Use the [Cloud Setup Guide](setup/cloud) for AWS/Azure options. 
+
 
 ## Isaac Sim vs. Gazebo vs. Unity
 
@@ -133,12 +135,14 @@ Isaac Sim requires:
 
 1. **Complete Module 2**: Ensure you understand Gazebo simulation basics
 2. **Verify Hardware**: Check RTX GPU requirements or setup cloud instance
-3. **Install Isaac Sim**: <!-- Follow [Workstation Setup](../setup/workstation.md) -->
+3. **Install Isaac Sim**: 
 4. **Start Week 8**: Isaac Sim Environment Setup *(Coming Soon)*
 
 ---
 
-**Questions?** <!-- Check the [Glossary](../references/glossary.md) for Isaac Sim terminology or consult NVIDIA forums. -->
+**Questions?** 
 
-**Previous Module**: [Module 2: Digital Twin](../module-2/index.md)
-**Next Module**: [Module 4: VLA & Humanoids](../module-4/index.md)
+**Previous Module**: [Module 2: Digital Twin](module-2/index)
+
+**Next Module**: [Module 4: VLA & Humanoids](module-4/index)
+

@@ -116,4 +116,4 @@ learning_objectives:
 **سوالات؟** <!-- تخروپن کی اصطلاحات کے لیے [لغت](../references/glossary.md) چیک کریں یا کورس کے فورمز سے مشورہ کریں۔ -->
 
 **پچھلا ماڈیول**: [ماڈیول 1: ROS 2](../module-1/index.md)
-**اگلا ماڈیول**: [ماڈیول 3: NVIDIA اسحاق](../module-3-isaac/index.md)
+**اگلا ماڈیول**: [ماڈیول 3: NVIDIA اسحاق](../module-3/index.md)

@@ -16,7 +16,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ur'],
+    locales: ['en','ur'],
     localeConfigs: {
       en: {
         label: 'English',
@@ -57,11 +57,16 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
+        // {
+        //   type: 'doc',
+        //   docId: 'Introduction/ros2-chapter',
+        //   position: 'left',
+        //   label: 'Textbook',
+        // },
         {
-          type: 'doc',
-          docId: 'Introduction/ros2-chapter',
-          position: 'left',
+          to: '/docs/Introduction/ros2-chapter',
           label: 'Textbook',
+          position: 'left',
         },
         {
           href: 'https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook',

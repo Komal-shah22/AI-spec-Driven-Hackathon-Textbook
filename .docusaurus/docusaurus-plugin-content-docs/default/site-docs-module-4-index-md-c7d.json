@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-4/index",
   "id": "module-4/index",
   "title": "Module 4: VLA & Humanoid Robotics",
   "description": "Integrate Vision-Language-Action models with humanoid robots for natural human-robot interaction and manipulation",
@@ -8,6 +7,7 @@
   "slug": "/module-4/",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-4/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-4/index.md",
   "tags": [],
   "version": "current",

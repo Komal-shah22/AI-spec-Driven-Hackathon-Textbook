@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-2/index",
   "id": "module-2/index",
   "title": "Module 2: Digital Twins - Simulation & Sensors",
   "description": "Build digital twins for robotic systems using Gazebo and Unity to simulate sensors, physics, and environments",
@@ -8,6 +7,7 @@
   "slug": "/module-2/",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/index.md",
   "tags": [],
   "version": "current",

@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-1/ch3-first-app",
   "id": "module-1/ch3-first-app",
   "title": "Chapter 3: Your First ROS 2 Application: Building a Simple Robotic System",
   "description": "Purpose:",
@@ -8,6 +7,7 @@
   "slug": "/module-1/ch3-first-app",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch3-first-app",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch3-first-app.md",
   "tags": [],
   "version": "current",

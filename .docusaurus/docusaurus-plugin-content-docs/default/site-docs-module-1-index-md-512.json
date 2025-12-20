@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-1/index",
   "id": "module-1/index",
   "title": "Module 1: The Robotic Nervous System (ROS 2)",
   "description": "This is the overview page for Module 1. Content to be added.",
@@ -8,6 +7,7 @@
   "slug": "/module-1/",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/index.md",
   "tags": [],
   "version": "current",

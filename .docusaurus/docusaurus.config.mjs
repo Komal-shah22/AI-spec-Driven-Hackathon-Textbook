@@ -7,9 +7,8 @@ export default {
   "title": "Humanoid Robotics Book",
   "tagline": "The Robotic Nervous System",
   "url": "https://Komal-shah22.github.io",
-  "baseUrl": "/AI-spec-Driven-Hackathon-Textbook/",
+  "baseUrl": "/AI-spec-Driven-Hackathon-Textbook/ur/",
   "onBrokenLinks": "ignore",
-  "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "Komal-shah22",
   "projectName": "AI-spec-Driven-Hackathon-Textbook",
@@ -51,21 +50,20 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Humanoid Robotics Book",
+      "title": "انسانی روبوٹکس کتاب",
       "logo": {
         "alt": "",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "Introduction/ros2-chapter",
-          "position": "left",
-          "label": "Textbook"
+          "to": "/docs/Introduction/ros2-chapter",
+          "label": "درسی کتاب",
+          "position": "left"
         },
         {
           "href": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook",
-          "label": "GitHub",
+          "label": "گٹ ہب",
           "position": "right"
         },
         {
@@ -91,42 +89,42 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "دستاویزات",
           "items": [
             {
-              "label": "ROS 2 Chapter",
+              "label": "ROS 2 باب",
               "to": "/docs/Introduction/ros2-chapter"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "برادری",
           "items": [
             {
-              "label": "Stack Overflow",
+              "label": "اسٹیک اوور فلو",
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
-              "label": "Discord",
+              "label": "ڈسکارڈ",
               "href": "https://discordapp.com/invite/docusaurus"
             },
             {
-              "label": "Twitter",
+              "label": "ٹویٹر",
               "href": "https://twitter.com/docusaurus"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "مزید",
           "items": [
             {
-              "label": "GitHub",
+              "label": "گٹ ہب",
               "href": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Humanoid Robotics Book. Built with Docusaurus."
+      "copyright": "کاپی رائٹ © 2025 انسانی روبوٹکس کتاب۔ ڈوکوسارس کے ساتھ بنایا گیا۔"
     },
     "prism": {
       "theme": {
@@ -344,6 +342,11 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
+      }
+    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -351,6 +354,28 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
+  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
@@ -365,6 +390,20 @@ export default {
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {
-    "mermaid": false
+    "format": "mdx",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    }
   }
 };

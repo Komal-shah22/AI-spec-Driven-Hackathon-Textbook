@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-2/simulation-environments",
   "id": "module-2/simulation-environments",
   "title": "Chapter 2: Simulation Environments for Robotics",
   "description": "Intro",
@@ -8,6 +7,7 @@
   "slug": "/module-2/simulation-environments",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/simulation-environments",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/02-simulation-environments.md",
   "tags": [],
   "version": "current",

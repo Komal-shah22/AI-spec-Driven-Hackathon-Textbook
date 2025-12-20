@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-1/ch4-advanced",
   "id": "module-1/ch4-advanced",
   "title": "Chapter 4: Advanced ROS 2 Tooling, Introspection, and Best Practices",
   "description": "Purpose:",
@@ -8,6 +7,7 @@
   "slug": "/module-1/ch4-advanced",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-1/ch4-advanced",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-1/ch4-advanced.md",
   "tags": [],
   "version": "current",

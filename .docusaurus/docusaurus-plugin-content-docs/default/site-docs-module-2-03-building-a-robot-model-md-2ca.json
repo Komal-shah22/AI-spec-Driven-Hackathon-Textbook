@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-2/03-building-a-robot-model",
   "id": "module-2/03-building-a-robot-model",
   "title": "Chapter 3: Building a Robot Model (URDF)",
   "description": "Intro",
@@ -8,6 +7,7 @@
   "slug": "/module-2/building-a-robot-model",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/building-a-robot-model",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/03-building-a-robot-model.md",
   "tags": [],
   "version": "current",

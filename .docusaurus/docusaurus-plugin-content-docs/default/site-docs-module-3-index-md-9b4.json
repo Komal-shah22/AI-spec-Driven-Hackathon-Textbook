@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-3/index",
   "id": "module-3/index",
   "title": "Module 3: NVIDIA Isaac - Perception & Navigation",
   "description": "Leverage NVIDIA Isaac Sim for GPU-accelerated robotics with VSLAM, Nav2 navigation, and reinforcement learning",
@@ -8,6 +7,7 @@
   "slug": "/module-3/",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-3/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-3/index.md",
   "tags": [],
   "version": "current",

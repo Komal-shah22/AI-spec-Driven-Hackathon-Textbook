@@ -1,5 +1,4 @@
 {
-  "unversionedId": "Introduction/ros2-chapter",
   "id": "Introduction/ros2-chapter",
   "title": "The Robotic Nervous System (ROS 2)",
   "description": "A comprehensive guide to ROS 2 for humanoid robotics, covering core concepts, tools, and development workflows.",
@@ -8,6 +7,7 @@
   "slug": "/Introduction/ros2-chapter",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/Introduction/ros2-chapter",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/Introduction/ros2-chapter.md",
   "tags": [],
   "version": "current",

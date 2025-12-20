@@ -1,5 +1,4 @@
 {
-  "unversionedId": "module-2/integrating-sensors",
   "id": "module-2/integrating-sensors",
   "title": "Chapter 4: Integrating Sensors in Simulation",
   "description": "Intro",
@@ -8,6 +7,7 @@
   "slug": "/module-2/integrating-sensors",
   "permalink": "/AI-spec-Driven-Hackathon-Textbook/docs/module-2/integrating-sensors",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Komal-shah22/AI-spec-Driven-Hackathon-Textbook/tree/main/docs/module-2/04-integrating-sensors.md",
   "tags": [],
   "version": "current",
